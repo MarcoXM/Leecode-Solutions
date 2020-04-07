@@ -1,4 +1,4 @@
-# April 2nd
+# april-2nd
 
 1. **Convert Sorted Array to Binary Search Tree**
 

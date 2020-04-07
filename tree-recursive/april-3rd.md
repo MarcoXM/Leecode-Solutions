@@ -1,4 +1,4 @@
-# April 3rd
+# april-3rd
 
 1. **Maximum Depth of Binary Tree**
 
