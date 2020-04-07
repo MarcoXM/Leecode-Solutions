@@ -1,17 +1,13 @@
 # Table of contents
 
-* [Tree-recursive](Tree-recursive/README.md)
-  * [march-31st](Tree-recursive/march-31st.md)
-  
-  * [april-1st](Tree-recursive/april-1st.md)
-  
-  * [april-2nd](Tree-recursive/april-2nd.md)
-  
-  * [april-3rd](Tree-recursive/april-3rd.md)
-  
-  * [april-4th](Tree-recursive/april-4th.md)
-  
-  * [april-5th](Tree-recursive/april-5th.md)
-  
-* [Binary-Search](Binary-Search/README.md)
+* [Introduction](README.md)
+* [Tree-recursive](tree-recursive/README.md)
+  * [march-31st](tree-recursive/march-31st.md)
+  * [april-1st](tree-recursive/april-1st.md)
+  * [april-2nd](tree-recursive/april-2nd.md)
+  * [april-3rd](tree-recursive/april-3rd.md)
+  * [april-4th](tree-recursive/april-4th.md)
+  * [april-5th](tree-recursive/april-5th.md)
+* [Binary-Search](binary-search/README.md)
+  * [Untitled](binary-search/untitled.md)
 
