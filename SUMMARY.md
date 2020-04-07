@@ -12,6 +12,7 @@
   * [april-4th](Tree-recursive/april-4th.md)
   
   * [april-5th](Tree-recursive/april-5th.md)
-  
 * [Binary-Search](Binary-Search/README.md)
+  * [april-6th](Binary-Search/april-6th.md)
+  * 
 
