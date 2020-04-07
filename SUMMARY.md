@@ -1,7 +1,7 @@
 # Table of contents
 
 <<<<<<< HEAD
-* [Tree-recursive](Tree-recursive/README.md)
+* [Tree-recursive](tree-recursive/README.md)
   * [march-31st](tree-recursive/march-31st.md)
   
   * [april-1st](tree-recursive/april-1st.md)
