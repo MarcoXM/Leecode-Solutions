@@ -9,5 +9,5 @@
   * [april-4th](tree-recursive/april-4th.md)
   * [april-5th](tree-recursive/april-5th.md)
 * [Binary-Search](binary-search/README.md)
-  * [Untitled](binary-search/untitled.md)
+  * [index](binary-search/untitled.md)
 
