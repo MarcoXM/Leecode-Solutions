@@ -12,3 +12,5 @@
   * [april-6th](binary-search/april-6th.md)
 * [Breath-First-Search](breath-first-search/README.md)
   * [april-7th](breath-first-search/april-7th.md)
+* [Hash-Map](hashmap/README.md)
+  * [april-8th](hashmap/april-8th.md)
