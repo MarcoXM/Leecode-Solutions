@@ -14,3 +14,5 @@
   * [april-7th](breath-first-search/april-7th.md)
 * [Hash-Map](hashmap/README.md)
   * [april-8th](hashmap/april-8th.md)
+* [Back-Tracking](back-tracking/README.md)
+  * [april-9th](back-tracking/april-9th.md)
