@@ -8,6 +8,7 @@
   * [april-3rd](tree-recursive/april-3rd.md)
   * [april-4th](tree-recursive/april-4th.md)
   * [april-5th](tree-recursive/april-5th.md)
+  * [april-10th](tree-recursive/april-10th.md)
 * [Binary-Search](binary-search/README.md)
   * [april-6th](binary-search/april-6th.md)
 * [Breath-First-Search](breath-first-search/README.md)
