@@ -7,13 +7,42 @@
 ## 树的基本特征
 
 1. 为什么要有树:
+   
    1. 树的查找是log\(N\)
 2. 对与树这个数据结构的操作只有:
    1. 看值,
+   
    2. 看左子树
+   
    3. 看右子树
+   
+3. 链表就是有且只有一个孩子的树
+
 
 ## 通用模板
+
+```Python
+# Definition for singly-linked list.
+# class ListNode:
+#     def __init__(self, x):
+#         self.val = x
+#         self.next = None
+
+class Solution:
+    def reverseList(self, head: ListNode) -> ListNode:
+        return self.helper(head,None)
+        
+    def helper(self,head,newHead):
+        if not head:
+            return newHead
+        
+        next_node = head.next
+        head.next = newHead
+        
+        return self.helper(next_node,head)
+```
+
+
 
 ```python
 def traverse(root):
@@ -21,8 +50,6 @@ def traverse(root):
     ## 对root 的子代的操作
     traverse(root.left)  ### 这里可以 类比二分的 low 和 high 
     traverse(root.right)
-
-
 
 def addOne(root):
     if not root:
