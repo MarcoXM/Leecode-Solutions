@@ -26,9 +26,11 @@
 * [Back-Tracking](back-tracking/README.md)
   
   * [april-9th](back-tracking/april-9th.md)
+  * [april-13th](back-tracking/april-13th.md)
   
 * [Data-Structure](data-structure/README.MD)
   
   * [april-12th](data-structure/april-12th.md)
+  * [april-14th](data-structure/april-14th.md)
   
   
