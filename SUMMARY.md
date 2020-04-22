@@ -32,5 +32,11 @@
   
   * [april-12th](data-structure/april-12th.md)
   * [april-14th](data-structure/april-14th.md)
+  * [april-15th](data-structure/april-15th.md)
+  * [april-16th](data-structure/april-16th.md)
+  * [april-18th](data-structure/april-18th.md)
+  * [april-19th](data-structure/april-19th.md)
+  * [april-20th](data-structure/april-20th.md)
+  * [april-21th](data-structure/april-21th.md)
   
   
