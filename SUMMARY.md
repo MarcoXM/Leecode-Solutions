@@ -18,6 +18,7 @@
 * [Breath-First-Search](breath-first-search/README.md)
   
   * [april-7th](breath-first-search/april-7th.md)
+  * [april-25th](breath-first-search/april-25th.md)
   
 * [Hash-Map](hashmap/README.md)
   
@@ -27,6 +28,7 @@
   
   * [april-9th](back-tracking/april-9th.md)
   * [april-13th](back-tracking/april-13th.md)
+  * [april-25th](back-tracking/april-25th.md)
   
 * [Data-Structure](data-structure/README.MD)
   
@@ -38,5 +40,7 @@
   * [april-19th](data-structure/april-19th.md)
   * [april-20th](data-structure/april-20th.md)
   * [april-21th](data-structure/april-21th.md)
+  * [april-23th](data-structure/april-23th.md)
+  * [april-24th](data-structure/april-24th.md)
   
   
