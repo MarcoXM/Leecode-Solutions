@@ -18,7 +18,7 @@
 
 #### BFS
 
-![bfs](/home/marco/Documents/Leecode-Solutions/img/bfs.png)
+![bfs](../img/bfs.png)
 
 1. 模板
 
@@ -52,7 +52,7 @@ def bfs(start,target) {
 
 ```
 
-BFS 可以找到最短距离，但是**空间复杂度高(看最后的表)，而 DFS 的**空间复杂度较低**。但是据说大神都喜欢BFS
+BFS 可以找到最短距离，但是**空间复杂度高(看最后的表)，而 DFS 的**空间复杂度较低。但是据说大神都喜欢BFS
 
 2. **BFS可以找到最短距离，DFS 不行吗**？
 
@@ -63,7 +63,7 @@ BFS 可以找到最短距离，但是**空间复杂度高(看最后的表)，而
 
 #### DFS
 
-![dfs](/home/marco/Documents/Leecode-Solutions/img/dfs.png)
+![dfs](../img/dfs.png)
 
 3. DFS解法-backtracking 
 
@@ -144,6 +144,6 @@ BFS 可以找到最短距离，但是**空间复杂度高(看最后的表)，而
 
 5. 使用情况
 
-![table_bd](/home/marco/Documents/Leecode-Solutions/img/table_bd.png)
+![table_bd](../img/table_bd.png)
 
 图表来至 AI 3
