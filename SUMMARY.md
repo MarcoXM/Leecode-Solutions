@@ -2,7 +2,10 @@
 
 * [Introduction](README.md)
 
+* [System-Configuration](system-config/configuration.md)
+
 * [Tree-recursive](tree-recursive/README.md)
+  
   * [march-31st](tree-recursive/march-31st.md)
   * [april-1st](tree-recursive/april-1st.md)
   * [april-2nd](tree-recursive/april-2nd.md)
