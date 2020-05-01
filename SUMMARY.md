@@ -13,6 +13,7 @@
   * [april-4th](tree-recursive/april-4th.md)
   * [april-5th](tree-recursive/april-5th.md)
   * [april-10th](tree-recursive/april-10th.md)
+  * [april-30th](data-structure/april-30th.md)
   
 * [Binary-Search](binary-search/README.md)
   
@@ -32,6 +33,7 @@
   * [april-9th](back-tracking/april-9th.md)
   * [april-13th](back-tracking/april-13th.md)
   * [april-25th](back-tracking/april-25th.md)
+  * [april-29th](data-structure/april-29h.md)
   
 * [Data-Structure](data-structure/README.MD)
   
