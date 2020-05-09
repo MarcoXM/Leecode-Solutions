@@ -43,5 +43,10 @@
   * [may-1st/](data-structure/may-1st.md)
 * [Dynamic-Programming](dynamic-programming/Dynamic Programming.md)
   * [may-2nd](dynamic-programming/may-2nd.md)
+* [Greedy](greedy/greedy.md)
+  * [may-2nd](greedy/may-8th.md)
+
+  
+
 
   
