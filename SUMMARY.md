@@ -45,9 +45,9 @@
   
   * [may-2nd](dynamic-programming/may-2nd.md)
 * [Greedy](greedy/greedy.md)
-  * [may-2nd](greedy/may-8th.md)
+  * [may-8nd](greedy/may-8th.md)
 * [SQL](sql/README.md)
   * [SQL-Info](sql/SQL-info.md)
-
-
+*  [GoLang](go/README.md)
+  * [T or not T](go/T or not T.md)
 
