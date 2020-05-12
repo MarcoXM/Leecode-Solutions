@@ -50,4 +50,6 @@
   * [SQL-Info](sql/SQL-info.md)
 *  [GoLang](go/README.md)
   * [T or not T](go/T or not T.md)
+  * [may-11th](go/may-11th.md)
+  * [may-12th](go/may-12th.md)
 
