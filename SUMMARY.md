@@ -2,6 +2,8 @@
 
 * [Introduction](README.md)
 * [System-Configuration](system-config/configuration.md)
+* [Topic-Summary](theme-summary/README.md)
+  * [Two-Pointer](theme-summary/Two-Pointer.md)
 * [Tree-recursive](tree-recursive/README.md)
   
   * [march-31st](tree-recursive/march-31st.md)
