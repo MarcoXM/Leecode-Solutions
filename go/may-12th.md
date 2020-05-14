@@ -3,7 +3,6 @@
 \236. Lowest Common Ancestor of a Binary Tree
 
 ```go
-
 /**
  * Definition for TreeNode.
  * type TreeNode struct {
@@ -23,6 +22,10 @@
     }
      // 剩下就是root 有 且不为孩子
      left := lowestCommonAncestor(root.Left, p, q)
+     // 优化 
+     if left != nil && left != q && left != p{
+         return left
+     }
      right := lowestCommonAncestor(root.Right, p, q)
      
      if left != nil && right != nil{
@@ -143,7 +146,7 @@ func getPath(root, n *TreeNode) *[]*TreeNode {
 
 \258. Add Digits
 
-```go
+```python
 
 class Solution:
     def addDigits(self, num: int) -> int:
@@ -196,8 +199,6 @@ func lowestCommonAncestor(root, p, q *TreeNode) *TreeNode {
      }
         
 }
-
-
 
 func min(a,b int) int {
     if a > b {
