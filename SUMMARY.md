@@ -4,6 +4,7 @@
 * [System-Configuration](system-config/configuration.md)
 * [Topic-Summary](theme-summary/README.md)
   * [Two-Pointer](theme-summary/Two-Pointer.md)
+  * [Sort](theme-summary/may-14th.md)
 * [Tree-recursive](tree-recursive/README.md)
   
   * [march-31st](tree-recursive/march-31st.md)
@@ -32,6 +33,7 @@
   * [april-29th](data-structure/april-29h.md)
 * [Data-Structure](data-structure/README.MD)
   
+  * [Go-Datastructure](data-structure/go-datastructure.md)
   * [april-12th](data-structure/april-12th.md)
   * [april-14th](data-structure/april-14th.md)
   * [april-15th](data-structure/april-15th.md)
