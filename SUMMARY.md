@@ -5,6 +5,7 @@
 * [Topic-Summary](theme-summary/README.md)
   * [Two-Pointer](theme-summary/Two-Pointer.md)
   * [Sort](theme-summary/may-14th.md)
+  * [Slice Window](theme-summary/Slice Window)
 * [Tree-recursive](tree-recursive/README.md)
   
   * [march-31st](tree-recursive/march-31st.md)
@@ -22,6 +23,8 @@
   
   * [april-7th](breath-first-search/april-7th.md)
   * [april-25th](breath-first-search/april-25th.md)
+  * [may-15th](breath-first-search/may-15th.md)
+  * [may-16th](breath-first-search/may-16th.md)
 * [Hash-Map](hashmap/README.md)
   
   * [april-8th](hashmap/april-8th.md)
