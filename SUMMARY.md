@@ -51,6 +51,8 @@
 * [Dynamic-Programming](dynamic-programming/Dynamic Programming.md)
   
   * [may-2nd](dynamic-programming/may-2nd.md)
+  * [may-18th](dynamic-programming/may-18th.md)
+  * [may-19th](dynamic-programming/may-19th.md)
 * [Greedy](greedy/greedy.md)
   * [may-8nd](greedy/may-8th.md)
 * [SQL](sql/README.md)
