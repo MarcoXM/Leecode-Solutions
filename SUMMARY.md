@@ -37,6 +37,8 @@
 * [Data-Structure](data-structure/README.MD)
   
   * [Go-Datastructure](data-structure/go-datastructure.md)
+  * [Stack](data-structure/stack.md)
+  * [Bite](data-structure/bite-wise.md)
   * [april-12th](data-structure/april-12th.md)
   * [april-14th](data-structure/april-14th.md)
   * [april-15th](data-structure/april-15th.md)
@@ -53,6 +55,7 @@
   * [may-2nd](dynamic-programming/may-2nd.md)
   * [may-18th](dynamic-programming/may-18th.md)
   * [may-19th](dynamic-programming/may-19th.md)
+  * [may-20th](dynamic-programming/may-20th.md)
 * [Greedy](greedy/greedy.md)
   * [may-8nd](greedy/may-8th.md)
 * [SQL](sql/README.md)
