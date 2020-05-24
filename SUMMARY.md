@@ -34,6 +34,14 @@
   * [april-13th](back-tracking/april-13th.md)
   * [april-25th](back-tracking/april-25th.md)
   * [april-29th](data-structure/april-29h.md)
+  
+    
+* [Slice-Window](slice-window/README.md)
+  
+  * [may-22th](slice-window/may-22th.md)
+  * [may-23th](slice-window/may-23th.md)
+  
+    
 * [Data-Structure](data-structure/README.MD)
   
   * [Go-Datastructure](data-structure/go-datastructure.md)
@@ -57,12 +65,16 @@
   * [may-19th](dynamic-programming/may-19th.md)
   * [may-20th](dynamic-programming/may-20th.md)
 * [Greedy](greedy/greedy.md)
+  
   * [may-8nd](greedy/may-8th.md)
 * [SQL](sql/README.md)
+  
   * [SQL-Info](sql/SQL-info.md)
 *  [GoLang](go/README.md)
   * [T or not T](go/T or not T.md)
   * [may-11th](go/may-11th.md)
   * [may-12th](go/may-12th.md)
   * [may-13th](go/may-13th.md)
+
+
 
