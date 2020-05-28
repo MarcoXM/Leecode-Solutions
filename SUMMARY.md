@@ -35,13 +35,11 @@
   * [april-25th](back-tracking/april-25th.md)
   * [april-29th](data-structure/april-29h.md)
   
-    
 * [Slice-Window](slice-window/README.md)
   
   * [may-22th](slice-window/may-22th.md)
   * [may-23th](slice-window/may-23th.md)
   
-    
 * [Data-Structure](data-structure/README.MD)
   
   * [Go-Datastructure](data-structure/go-datastructure.md)
@@ -58,6 +56,10 @@
   * [april-23th](data-structure/april-23th.md)
   * [april-24th](data-structure/april-24th.md)
   * [may-1st/](data-structure/may-1st.md)
+  * [april-25th](data-structure/april-25th.md)
+  * [april-26th](data-structure/april-26th.md)
+  * [april-27th](data-structure/april-27th.md)
+  * [april-28th](data-structure/may-28th.md)
 * [Dynamic-Programming](dynamic-programming/Dynamic Programming.md)
   
   * [may-2nd](dynamic-programming/may-2nd.md)
