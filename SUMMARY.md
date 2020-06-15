@@ -35,7 +35,7 @@
   * [april-25th](back-tracking/april-25th.md)
   * [april-29th](data-structure/april-29h.md)
   
-* [Slice-Window](slice-window/README.md)
+* [Slice-Window](slice-window/Slice Window.md)
   * [may-22th](slice-window/may-22th.md)
   * [may-23th](slice-window/may-23th.md)
   
@@ -65,6 +65,13 @@
   * [may-18th](dynamic-programming/may-18th.md)
   * [may-19th](dynamic-programming/may-19th.md)
   * [may-20th](dynamic-programming/may-20th.md)
+  * [june-6th](dynamic-programming/june-6th.md)
+  * [june-11th](dynamic-programming/june-11th.md)
+  * [june-12th](dynamic-programming/june-12th.md)
+  * [june-13th](dynamic-programming/june-13th.md)
+  * [june-14th](dynamic-programming/june-14th.md)
+  * [june-15th](dynamic-programming/june-15th.md)
+  
 * [Greedy](greedy/greedy.md)
   
   * [may-8nd](greedy/may-8th.md)
@@ -77,7 +84,10 @@
   * [may-12th](go/may-12th.md)
   * [may-13th](go/may-13th.md)
 
-
+* [may-29th](no-theme//may-29th.md)
+* [may-30th](no-theme//may-30th.md)
+* [june-2nd](no-theme//june-2nd.md)
+* [june-3rd](no-theme//june-3rd.md)
 
 * [No Theme](no-theme/README.md)
   * [may-29th](no-theme//may-29th.md)
