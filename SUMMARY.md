@@ -97,6 +97,16 @@
   * [june-4th](no-theme//june-4th.md)
   * [june-5th](no-theme//june-5th.md)
   * [june-6th](no-theme//june-6th.md)
+  * [june-16th](no-theme/june-16th.md)
+  * [june-17th](no-theme/june-17th.md)
+  * [june-18th](no-theme/june-18th.md)
+  * [june-19th](no-theme/june-19th.md)
+  * [june-20th](no-theme/june-20th.md)
+  * [june-21th](no-theme/june-21th.md)
+  * [june-22th](no-theme/june-22th.md)
+  * [june-23th](no-theme/june-23th.md)
+  * [june-24th](no-theme/june-24th.md)
+  * 
   
 
 

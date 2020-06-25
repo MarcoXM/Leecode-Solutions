@@ -1,0 +1,55 @@
+## june-24th
+
+\116. Populating Next Right Pointers in Each Node
+
+```python
+
+"""
+# Definition for a Node.
+class Node:
+    def __init__(self, val: int = 0, left: 'Node' = None, right: 'Node' = None, next: 'Node' = None):
+        self.val = val
+        self.left = left
+        self.right = right
+        self.next = next
+"""
+
+class Solution:
+    def connect(self, root: 'Node') -> 'Node':
+        
+        ## 层次遍历就会简单, 就是easy的题了
+        self.dfs_connect(root,None)
+        return root
+        
+    def dfs_connect(self,root,next_node):
+        if not root:
+            return 
+        root.next = next_node
+        if root.left and root.right:
+            self.dfs_connect(root.left,root.right)
+        if root.next:
+            self.dfs_connect(root.right,root.next.left)
+        else:
+            self.dfs_connect(root.right,None)
+    
+        
+```
+
+\503. Next Greater Element II
+
+```python
+class Solution:
+    def nextGreaterElements(self, nums: List[int]) -> List[int]:
+        stack = []
+        ans = [-1] * len(nums)
+        
+        ## 栈问题
+        for i in range(len(nums)*2):
+            while stack and nums[stack[-1]] < nums[i%len(nums)]:
+                ans[stack.pop()] = nums[i%len(nums)]
+            stack.append(i%len(nums))
+        
+        return ans
+            
+```
+
