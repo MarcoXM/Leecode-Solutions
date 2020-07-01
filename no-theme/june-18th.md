@@ -1,9 +1,6 @@
-## june 18th
-
-
+# june-18th
 
 ```go
-
 func criticalConnections(n int, connections [][]int) [][]int {
     graph := make(map[int][]int)
     set := make(map[[2]int]bool)
@@ -19,7 +16,7 @@ func criticalConnections(n int, connections [][]int) [][]int {
     for i:= 0; i < n; i++ {
         rank[i] = -1
     }
-    
+
     var dfs func(node, parent, depth int ) int
     dfs = func(node, parent, depth int) int{
         if rank[node] >= 0 {
@@ -41,7 +38,7 @@ func criticalConnections(n int, connections [][]int) [][]int {
         }
         return minDepth
     }
-    
+
     dfs(0,-1,0)
     for _,x :=range connections{
         if set[swap(x[0],x[1])] == true{
@@ -50,7 +47,7 @@ func criticalConnections(n int, connections [][]int) [][]int {
     }
 
     return ans
-    
+
 }
 func swap(a ,b int) [2]int {
     if a< b {

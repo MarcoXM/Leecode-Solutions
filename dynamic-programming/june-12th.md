@@ -1,4 +1,4 @@
-## june-12th
+# june-12th
 
 \1736. Throw garbage
 
@@ -22,15 +22,13 @@ class Solution:
             elif BagList[j]+ BagList[i] > 3:
                 ans += 1
                 i-=1
-        
-        return ans 
-        
+
+        return ans
 ```
 
 \902. Numbers At Most N Given Digit Set
 
 ```python
-
 class Solution:
     def atMostNGivenDigitSet(self, D: List[str], N: int) -> int:
         ### 
@@ -39,11 +37,11 @@ class Solution:
         len_N = len(s)
         len_D = len(D)
         ans = 0
-        
+
         ## 退一位所有可能
         for i in range(1,len_N):
             ans += len_D**i    
-            
+
         print(ans)
         for i in range(0,len_N):
             ## 遍历d 进制的数字
@@ -56,9 +54,7 @@ class Solution:
                     keep = True
             if not keep:
                 return ans 
-                
+
         return ans + 1
-            
-        
 ```
 

@@ -7,21 +7,15 @@
 ## 树的基本特征
 
 1. 为什么要有树:
-   
    1. 树的查找是log\(N\)
-2. 对与树这个数据结构的操作只有:
-   1. 看值,
-   
-   2. 看左子树
-   
-   3. 看右子树
-   
+2. 对与树这个数据结构的操作只有: 1. 看值,
+   1. 看左子树
+   2. 看右子树
 3. 链表就是有且只有一个孩子的树
-
 
 ## 通用模板
 
-```Python
+```python
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -31,18 +25,16 @@
 class Solution:
     def reverseList(self, head: ListNode) -> ListNode:
         return self.helper(head,None)
-        
+
     def helper(self,head,newHead):
         if not head:
             return newHead
-        
+
         next_node = head.next
         head.next = newHead
-        
+
         return self.helper(next_node,head)
 ```
-
-
 
 ```python
 def traverse(root):
@@ -186,8 +178,6 @@ class Solution:
         return self.helper(root.right,root.val,max) and self.helper(root.left,min,root.val)
 ```
 
-
-
 ```python
 # Definition for a binary tree node.
 # class TreeNode:
@@ -198,21 +188,17 @@ class Solution:
 
 class Solution:
     def hasPathSum(self, root: TreeNode, sum: int) -> bool:
-        
+
         if not root:
             return False
         else:
             if sum == root.val and not root.left and not root.right:
                 return True
-                
+
         return self.hasPathSum(root.left,sum-root.val) or self.hasPathSum(root.right,sum-root.val)
             ## 明白一个函数的作用并相信它能完成这个任务，千万不要试图跳进细节
         ## 这个函数在root 上可以完成的事情,在root.left 或者说在rootright也能完成. 要对孩子有自信!
 ```
-
-
-
-
 
 1. 二叉树算法的原则，把当前节点要做的事做好，其他交给递归框架，不用当前节点操心
 2. 如果当前节点会对下面的子节点有整体影响，可以通过helpFunction辅助函数设计返回值接口，携带更多的参数传递信息。

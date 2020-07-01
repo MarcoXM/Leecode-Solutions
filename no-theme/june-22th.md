@@ -1,9 +1,8 @@
-## june-22th
+# june-22th
 
 \22. Generate Parentheses
 
 ```python
-
 class Solution:
     def generateParenthesis(self, n: int) -> List[str]:
         ## 典型的dfs 找路径 
@@ -11,21 +10,18 @@ class Solution:
         res = []
         self.getParenth(0, 0, n,[],res)
         return res
-    
+
     def getParenth(self,l , r, n, path, res):
         if len(path) == n * 2:
             res.append("".join(path[:]))
             return
-        
+
         ## 难点在于怎么遍历到下一课树,他和前面的状态有关
         if l < n :
             self.getParenth(l + 1,r,n,path + ["("],res) 
         if r < l :
-            self.getParenth(l,r + 1,n,path + [")"],res) 
-        
+            self.getParenth(l,r + 1,n,path + [")"],res)
 ```
-
-
 
 \973. K Closest Points to Origin
 
@@ -41,9 +37,7 @@ class Solution:
         while K > 0:
             ans.append(heapq.heappop(p)[1])
             K -= 1
-            
-        return ans
 
-    
+        return ans
 ```
 

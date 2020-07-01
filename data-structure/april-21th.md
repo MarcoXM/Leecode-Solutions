@@ -1,6 +1,6 @@
-## april-21
+# april-21th
 
-172. **Factorial Trailing Zeroes**
+1. **Factorial Trailing Zeroes**
 
 ```python
 class Solution:
@@ -15,11 +15,7 @@ class Solution:
             else:
                 n-=1
         return count
-                
-        
 ```
-
-
 
 135**1. Count Negative Numbers in a Sorted Matrix**
 
@@ -30,7 +26,7 @@ class Solution:
         # 那我们就可以找上界0
         # 行二分 
         # 这是easy??
-    
+
         if not grid:
             return 0
         m,n = len(grid),len(grid[0])
@@ -43,7 +39,7 @@ class Solution:
                 idx = self.BSupper(grid[i],idx)
                 count += (n - idx)
         return count
-    
+
     def BSupper(self,nums,idx):
         l,r = idx,len(nums)
         while l < r:
@@ -52,22 +48,18 @@ class Solution:
                 r = mid
             else:
                 l = mid + 1
-                
+
     # 0(nlogn)
-                
 ```
 
-
-
-547. **Friend Circles**
+1. **Friend Circles**
 
 ```python
-
 class Solution:
     def findCircleNum(self, M: List[List[int]]) -> int:
         ## 图的表征
         ## 链表 ,感觉可以回溯
-        
+
         visited = [0] *len(M)
         count = 0
         for i in range(len(M)):
@@ -75,15 +67,13 @@ class Solution:
                 self.dfs(i, M, visited)
                 count += 1
         return count
-        
+
     def dfs(self,idx,M,visited):
         for j in range(len(M)):
             if M[idx][j] == 1 and visited[j] == 0:
                 visited[j] = 1
                 self.dfs(j,M,visited)
-                
+
     # 0(n^2)
-        
-        
 ```
 

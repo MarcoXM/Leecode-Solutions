@@ -1,13 +1,14 @@
 # Table of contents
 
 * [Introduction](README.md)
-* [System-Configuration](system-config/configuration.md)
-* [Topic-Summary](theme-summary/README.md)
-  * [Two-Pointer](theme-summary/Two-Pointer.md)
-  * [Sort](theme-summary/may-14th.md)
-  * [Slice Window](theme-summary/Slice Window)
+* [Problems](problems/README.md)
+  * [Untitled](problems/untitled.md)
+* [System-Configuration](configuration.md)
+* [Topic-Summary](topic-summary/README.md)
+  * [Two-Pointer](topic-summary/two-pointer.md)
+  * [Sort](topic-summary/may-14th.md)
+  * [Slice Window](topic-summary/slice-window.md)
 * [Tree-recursive](tree-recursive/README.md)
-  
   * [march-31st](tree-recursive/march-31st.md)
   * [april-1st](tree-recursive/april-1st.md)
   * [april-2nd](tree-recursive/april-2nd.md)
@@ -15,32 +16,25 @@
   * [april-4th](tree-recursive/april-4th.md)
   * [april-5th](tree-recursive/april-5th.md)
   * [april-10th](tree-recursive/april-10th.md)
-  * [april-30th](data-structure/april-30th.md)
+  * [april-30th](tree-recursive/april-30th.md)
 * [Binary-Search](binary-search/README.md)
-  
   * [april-6th](binary-search/april-6th.md)
 * [Breath-First-Search](breath-first-search/README.md)
-  
   * [april-7th](breath-first-search/april-7th.md)
   * [april-25th](breath-first-search/april-25th.md)
   * [may-15th](breath-first-search/may-15th.md)
   * [may-16th](breath-first-search/may-16th.md)
-* [Hash-Map](hashmap/README.md)
-  
-  * [april-8th](hashmap/april-8th.md)
+* [Hash-Map](hash-map/README.md)
+  * [april-8th](hash-map/april-8th.md)
 * [Back-Tracking](back-tracking/README.md)
-  
   * [april-9th](back-tracking/april-9th.md)
   * [april-13th](back-tracking/april-13th.md)
   * [april-25th](back-tracking/april-25th.md)
-  * [april-29th](data-structure/april-29h.md)
-  
-* [Slice-Window](slice-window/Slice Window.md)
+  * [april-29th](back-tracking/april-29th.md)
+* [Slice-Window](slice-window/README.md)
   * [may-22th](slice-window/may-22th.md)
   * [may-23th](slice-window/may-23th.md)
-  
-* [Data-Structure](data-structure/README.MD)
-  
+* [Data-Structure](data-structure/README.md)
   * [Go-Datastructure](data-structure/go-datastructure.md)
   * [Stack](data-structure/stack.md)
   * [Bite](data-structure/bite-wise.md)
@@ -59,8 +53,7 @@
   * [april-26th](data-structure/april-26th.md)
   * [april-27th](data-structure/april-27th.md)
   * [april-28th](data-structure/may-28th.md)
-* [Dynamic-Programming](dynamic-programming/Dynamic Programming.md)
-  
+* [Dynamic-Programming](dynamic-programming/README.md)
   * [may-2nd](dynamic-programming/may-2nd.md)
   * [may-18th](dynamic-programming/may-18th.md)
   * [may-19th](dynamic-programming/may-19th.md)
@@ -71,32 +64,27 @@
   * [june-13th](dynamic-programming/june-13th.md)
   * [june-14th](dynamic-programming/june-14th.md)
   * [june-15th](dynamic-programming/june-15th.md)
-  
-* [Greedy](greedy/greedy.md)
-  
+* [Greedy](greedy/README.md)
   * [may-8nd](greedy/may-8th.md)
 * [SQL](sql/README.md)
-  
-  * [SQL-Info](sql/SQL-info.md)
-*  [GoLang](go/README.md)
-  * [T or not T](go/T or not T.md)
+  * [SQL-Info](sql/sql-info.md)
+* [GoLang](go/README.md)
+  * [T or not T](go/t-or-not-t.md)
   * [may-11th](go/may-11th.md)
   * [may-12th](go/may-12th.md)
   * [may-13th](go/may-13th.md)
-
-* [may-29th](no-theme//may-29th.md)
-* [may-30th](no-theme//may-30th.md)
-* [june-2nd](no-theme//june-2nd.md)
-* [june-3rd](no-theme//june-3rd.md)
-
-* [No Theme](no-theme/README.md)
-  * [may-29th](no-theme//may-29th.md)
-  * [may-30th](no-theme//may-30th.md)
-  * [june-2nd](no-theme//june-2nd.md)
-  * [june-3rd](no-theme//june-3rd.md)
-  * [june-4th](no-theme//june-4th.md)
-  * [june-5th](no-theme//june-5th.md)
-  * [june-6th](no-theme//june-6th.md)
+* [may-29th](may-29th.md)
+* [may-30th](may-30th.md)
+* [june-2nd](june-2nd.md)
+* [june-3rd](june-3rd.md)
+* [23. Merge k Sorted Lists](no-theme/README.md)
+  * [may-29th](no-theme/may-29th.md)
+  * [may-30th](no-theme/may-30th.md)
+  * [june-2nd](no-theme/june-2nd.md)
+  * [june-3rd](no-theme/june-3rd.md)
+  * [june-4th](no-theme/june-4th.md)
+  * [june-5th](no-theme/june-5th.md)
+  * [june-6th](no-theme/june-6th.md)
   * [june-16th](no-theme/june-16th.md)
   * [june-17th](no-theme/june-17th.md)
   * [june-18th](no-theme/june-18th.md)
@@ -106,7 +94,4 @@
   * [june-22th](no-theme/june-22th.md)
   * [june-23th](no-theme/june-23th.md)
   * [june-24th](no-theme/june-24th.md)
-  * 
-  
-
 

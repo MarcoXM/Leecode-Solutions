@@ -1,6 +1,6 @@
-# april 7th
+# april-7th
 
-200. **Number of Islands**
+1. **Number of Islands**
 
 ```python
 ## BFS
@@ -28,14 +28,14 @@ class Solution:
                             if 0<=nx<N and 0<=ny<M and grid[nx][ny] == "1":
                                 q.append((nx,ny))
                                 grid[nx][ny]="0"
-                                
+
         return ans
 ```
 
 ```go
 type queue struct {
-	row int
-	col int
+    row int
+    col int
 }
 func numIslands(grid [][]byte) int {
     if len(grid) == 0 || len(grid[0]) == 0 {
@@ -49,11 +49,11 @@ func numIslands(grid [][]byte) int {
         x int
         y int
     }{
-		{0, 1},
-		{0,-1},
-		{1, 0},
-		{-1,0},
-	}
+        {0, 1},
+        {0,-1},
+        {1, 0},
+        {-1,0},
+    }
     for i :=0 ;i < N; i++ {
         for j := 0 ; j < M; j++ {
             // fmt.Println(grid[i][j])
@@ -85,16 +85,14 @@ func numIslands(grid [][]byte) int {
 //还挺麻烦的
 ```
 
+1. **Course Schedule**
 
-
-207. **Course Schedule**
-
-```Python
+```python
 class Solution:
     def canFinish(self, numCourses: int, prerequisites: List[List[int]]) -> bool:
-        
+
         ## 
-        
+
         if not prerequisites:
             return True
         from collections import deque,defaultdict
@@ -103,13 +101,13 @@ class Solution:
         for cour,pres in prerequisites:
             course[pres].append(cour)
             indegree[cour] += 1
-            
+
         ## 如果形成环
         q = deque()
         for i in range(numCourses):
             if indegree[i] == 0: ## No prerequites
                 q.append(i)
-                
+
         ## 开始学习 能学的
         while q:
             node = q.popleft()
@@ -132,7 +130,7 @@ func canFinish(numCourses int, prerequisites [][]int) bool {
     var q []queue
     var courses = make(map[int][]int)
     var indegree = make([]int, numCourses) // 长度为多少们课
-    
+
     for _,v := range prerequisites {
         indegree[v[0]]++ 
         courses[v[1]] = append(courses[v[1]],v[0])
@@ -154,54 +152,30 @@ func canFinish(numCourses int, prerequisites [][]int) bool {
         }
     }
     for i := 0; i < numCourses; i++ {
-		if indegree[i]!= 0 {
-			return false
-		}
-	}
+        if indegree[i]!= 0 {
+            return false
+        }
+    }
     return true
 }
 ```
 
+1. **Course Schedule II**
 
+   \`\`\`python class Solution: def findOrder\(self, numCourses: int, prerequisites: List\[List\[int\]\]\) -&gt; List\[int\]: if not prerequisites: return list\(range\(numCourses\)\) from collections import deque,defaultdict course = defaultdict\(list\) indegree = defaultdict\(int\) ans = \[\] for cour,pres in prerequisites: course\[pres\].append\(cour\) indegree\[cour\] += 1
 
-210. **Course Schedule II**
-```python
-class Solution:
-    def findOrder(self, numCourses: int, prerequisites: List[List[int]]) -> List[int]:
-        if not prerequisites:
-             return list(range(numCourses))
-        from collections import deque,defaultdict
-        course = defaultdict(list)
-        indegree = defaultdict(int)
-        ans = []
-        for cour,pres in prerequisites:
-            course[pres].append(cour)
-            indegree[cour] += 1
-            
-        q = deque()
-        for i in range(numCourses):
-            if indegree[i] == 0:
-                q.append(i)
-        
-        while q:
-            node = q.popleft()
-            ans.append(node)
-            for next_course in course[node]:
-                indegree[next_course] -= 1 # 更新 预修list
-                if indegree[next_course] == 0 :
-                    q.append(next_course)
-        return ans if len(ans)== numCourses else [] # 没学完就是没用
-    
-    
-```
+   q = deque\(\) for i in range\(numCourses\): if indegree\[i\] == 0: q.append\(i\)
 
+   while q: node = q.popleft\(\) ans.append\(node\) for next\_course in course\[node\]: indegree\[next\_course\] -= 1 \# 更新 预修list if indegree\[next\_course\] == 0 : q.append\(next\_course\) return ans if len\(ans\)== numCourses else \[\] \# 没学完就是没用
+
+```text
 ```go
 type queue struct {
     course int
 }
 func findOrder(numCourses int, prerequisites [][]int) []int {
     var ans = make([]int,0) // 空list
-    
+
     if len(prerequisites)==0{
         for i:=0;i< numCourses;i++ {
             ans = append(ans,i)
@@ -212,7 +186,7 @@ func findOrder(numCourses int, prerequisites [][]int) []int {
     var q []queue
     var indegree = make([]int, numCourses) 
     var courses = make(map[int][]int)
-    
+
     for _,v := range prerequisites {
         indegree[v[0]]++ 
         courses[v[1]] = append(courses[v[1]],v[0])
@@ -241,13 +215,9 @@ func findOrder(numCourses int, prerequisites [][]int) []int {
         return make([]int, 0)
     }
 }
-    
-
 ```
 
-
-
-127. **Word Ladder**
+1. **Word Ladder**
 
 ```python
 class Solution:
@@ -272,7 +242,6 @@ class Solution:
                         wordList.remove(w)
                         q.append((w,l+1))    
         return 0
-        
 ```
 
 ```go
@@ -312,12 +281,12 @@ func ladderLength(beginWord string, endWord string, wordList []string) int {
         }
     }
     return 0
-    
-    
-}   
+
+
+}
 ```
 
-605. **Sequence Reconstruction**
+1. **Sequence Reconstruction**
 
 ```python
 class Solution:
@@ -336,7 +305,7 @@ class Solution:
         for sq in seqs:
             for i in range(len(sq)-1):
                 graphs[sq[i]].append(sq[i+1])
-                
+
         ## 剩下的就是能不能从node[0] 到 node[-1],能通且唯一
         ans = [[] for _ in range(len(org))]
         q = deque()
@@ -350,19 +319,15 @@ class Solution:
                 continue
             for next_node in next_nodes:
                 q.append((next_node,index+1))
-                
+
         ans = list(map(lambda x : len(x)==1,ans))
         return len(ans) == len(seqs)
-    ## 不写go 了 
-        
-
+    ## 不写go 了
 ```
 
+1. **Clone Graph**
 
-
-133. **Clone Graph**
-
-````python
+```python
 """
 # Definition for a Node.
 class Node:
@@ -397,6 +362,5 @@ class Solution:
                     q.append(neightbor)
                 visited[node].neighbors.append(visited[neightbor])
         return node_copy
-
-````
+```
 

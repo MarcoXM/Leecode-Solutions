@@ -1,17 +1,12 @@
-## stack
+# Stack
 
-
-
-首先,如果涉及到任何反序操作! 果斷想到stack 
-
-
+首先,如果涉及到任何反序操作! 果斷想到stack
 
 Recomandation of Lee215
 
 \901. Online Stock Span
 
 ```python
-
 class StockSpanner:
 
     def __init__(self):
@@ -24,13 +19,9 @@ class StockSpanner:
             res += self.stack.pop()[1]
         self.stack.append([price, res])
         return res
- 
-        
 ```
 
-
-
-[\1130. Minimum Cost Tree From Leaf Values](https://leetcode.com/problems/minimum-cost-tree-from-leaf-values/discuss/339959/One-Pass-O(N)-Time-and-Space)
+\[\1130. Minimum Cost Tree From Leaf Values\]\([https://leetcode.com/problems/minimum-cost-tree-from-leaf-values/discuss/339959/One-Pass-O\(N\)-Time-and-Space](https://leetcode.com/problems/minimum-cost-tree-from-leaf-values/discuss/339959/One-Pass-O%28N%29-Time-and-Space)\)
 
 ```python
     def mctFromLeafValues(self, A):
@@ -46,23 +37,11 @@ class StockSpanner:
         return res
 ```
 
-
-
 [Sum of Subarray Minimums](https://leetcode.com/problems/sum-of-subarray-minimums/discuss/170750/C++JavaPython-Stack-Solution)
 
+\[Online Stock Span\]\([https://leetcode.com/problems/online-stock-span/discuss/168311/C++JavaPython-O\(1](https://leetcode.com/problems/online-stock-span/discuss/168311/C++JavaPython-O%281)\)\)
 
-
-
-
-[Online Stock Span](https://leetcode.com/problems/online-stock-span/discuss/168311/C++JavaPython-O(1))
-
-
-
-[Score of Parentheses](https://leetcode.com/problems/score-of-parentheses/discuss/141777/C++JavaPython-O(1)-Space)
-
-
+\[Score of Parentheses\]\([https://leetcode.com/problems/score-of-parentheses/discuss/141777/C++JavaPython-O\(1\)-Space](https://leetcode.com/problems/score-of-parentheses/discuss/141777/C++JavaPython-O%281%29-Space)\)
 
 [Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii/discuss/98270/JavaC++Python-Loop-Twice)
-
-
 

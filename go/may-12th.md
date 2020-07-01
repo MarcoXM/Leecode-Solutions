@@ -1,4 +1,4 @@
-## may-12th
+# may-12th
 
 \236. Lowest Common Ancestor of a Binary Tree
 
@@ -12,7 +12,7 @@
  * }
  */
  func lowestCommonAncestor(root, p, q *TreeNode) *TreeNode {
-  
+
      // 原function 就是return node的
      if root == nil{
          return root
@@ -27,14 +27,14 @@
          return left
      }
      right := lowestCommonAncestor(root.Right, p, q)
-     
+
      if left != nil && right != nil{
          return root
      }else if left != nil && right == nil{
          return left
      }
      return right
-     
+
 }
 
   /**
@@ -52,7 +52,7 @@
      pathQ := getPath(root,q)
      pathP := getPath(root,p)
      var ans *TreeNode
-     
+
      for i := 0 ; i < len(pathQ) && i < len(pathP);i++ {
          if pathQ[i].Val == pathP[i].Val {
              ans = pathQ[i] 
@@ -61,7 +61,7 @@
          }
      }
      return ans
-          
+
  }
 func getPath(root, n *TreeNode) []*TreeNode {
     s := make([]*TreeNode,0)
@@ -83,7 +83,7 @@ func getPath(root, n *TreeNode) []*TreeNode {
                 root = nil
             }
         }
-        
+
     }
     return s
 }
@@ -107,7 +107,7 @@ func getPath(root, n *TreeNode) []*TreeNode {
      pathQ := getPath(root,q)
      pathP := getPath(root,p)
      var ans *TreeNode
-     
+
      for i := 0 ; i < len(*pathQ) && i < len(*pathP);i++ {
          if (*pathQ)[i].Val == (*pathP)[i].Val {
              ans = (*pathQ)[i] 
@@ -116,7 +116,7 @@ func getPath(root, n *TreeNode) []*TreeNode {
          }
      }
      return ans
-          
+
  }
 func getPath(root, n *TreeNode) *[]*TreeNode {
     s := make([]*TreeNode,0)
@@ -138,7 +138,7 @@ func getPath(root, n *TreeNode) *[]*TreeNode {
                 root = nil
             }
         }
-        
+
     }
     return &s
 }
@@ -147,7 +147,6 @@ func getPath(root, n *TreeNode) *[]*TreeNode {
 \258. Add Digits
 
 ```python
-
 class Solution:
     def addDigits(self, num: int) -> int:
         while num//10 > 0:
@@ -157,11 +156,9 @@ class Solution:
                 num //= 10
             num = temp
         return num
-
 ```
 
 ```go
-
 func addDigits(num int) int {
     for num/10 > 0 {
         temp := 0
@@ -170,20 +167,17 @@ func addDigits(num int) int {
             num = num /10
         }
         num = temp
-    
+
     }
     return num
 }
 ```
 
-
-
 \235**. Lowest Common Ancestor of a Binary Search Tree**
 
 ```go
-
 func lowestCommonAncestor(root, p, q *TreeNode) *TreeNode {
-    
+
      min_ := min(q.Val,p.Val)
      max_ := max(q.Val,p.Val)
      if root == nil {
@@ -197,7 +191,7 @@ func lowestCommonAncestor(root, p, q *TreeNode) *TreeNode {
      } else {
          return lowestCommonAncestor(root.Left, p, q)
      }
-        
+
 }
 
 func min(a,b int) int {

@@ -1,6 +1,6 @@
-## april-14th
+# april-14th
 
-355. **Design Twitter**
+1. **Design Twitter**
 
 ```python
 class Twitter:
@@ -12,7 +12,7 @@ class Twitter:
         self.database = defaultdict(list) ## user_id :
         self.followship = defaultdict(set)
         self.timestamp = 0
-        
+
 
     def postTweet(self, userId: int, tweetId: int) -> None:
         """
@@ -20,7 +20,7 @@ class Twitter:
         """
         self.timestamp += 1
         self.database[userId].append((-self.timestamp,tweetId)) ## 放入database 应该为tuple等type 元素
-            
+
 
     def getNewsFeed(self, userId: int) -> List[int]:
         """
@@ -53,7 +53,7 @@ class Twitter:
         """
         if followerId != followeeId: # 保证不能自己follow自己
             self.followship[followerId].add(followeeId)
-        
+
 
     def unfollow(self, followerId: int, followeeId: int) -> None:
         """

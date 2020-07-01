@@ -1,9 +1,8 @@
-## may-21th
+# Bite
 
 \1332. Number of 1 Bits
 
 ```python
-
 class Solution:
     """
     @param n: an unsigned integer
@@ -11,23 +10,20 @@ class Solution:
     """
     def hammingWeight(self, n):
         # write your code here
-        
+
         ### 判定 bin(末位) & 1 是否爲真
         c = 0
         while n >= 1 :
             if n & 1:
                 c += 1
             n = n >> 1
-            
+
         return c
 ```
-
-
 
 \844. Number Pair Statistics
 
 ```python
-
 class Solution:
     """
     @param p: the point List
@@ -61,7 +57,7 @@ class Solution:
                     binp[3] += 1
                 else:
                     binp[2] += 1
-                    
+
             elif p[i].x & 1 == 0:
                 if p[i].y & 1 == 1:
                     binp[1] += 1
@@ -69,6 +65,5 @@ class Solution:
                     binp[0] += 1
 
         return sum(map(lambda x : (x*(x-1))//2,binp))
-        
 ```
 

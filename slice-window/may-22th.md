@@ -1,4 +1,4 @@
-## may-22th
+# may-22th
 
 \438. Find All Anagrams in a String
 
@@ -18,7 +18,7 @@ class Solution:
                 if sdict[w] == pdict[w]:
                     match += 1
             r += 1
-            
+
             while match == len(pdict):
                 if r - l == len(p):
                     ans.append(l)
@@ -29,7 +29,7 @@ class Solution:
                         match -= 1
                 l += 1
         return ans
-                
+
      # O(N)
 ```
 

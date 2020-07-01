@@ -1,9 +1,8 @@
-## may-23th
+# may-23th
 
 \76. Minimum Window Substring
 
 ```python
-
 class Solution:
     def minWindow(self, s: str, t: str) -> str:
         ## 首先这是一道hard的题!
@@ -22,7 +21,7 @@ class Solution:
                 if windows[w] == tdict[w]:
                     match += 1
             r += 1
-            
+
             ## 集齐所有元素
             while match == len(tdict):
                 if r - l < minLen:
@@ -75,8 +74,7 @@ class Solution:
                         if windows[w2] < wordsCount[w2]:
                             match -= 1
                     l += wLen
-                
+
         return ans
-                
 ```
 

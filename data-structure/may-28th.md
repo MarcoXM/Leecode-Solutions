@@ -1,4 +1,4 @@
-## may-28th
+# april-28th
 
 \617. Merge Two Binary Trees
 
@@ -11,12 +11,12 @@
 #         self.right = right
 class Solution:
     def mergeTrees(self, t1: TreeNode, t2: TreeNode) -> TreeNode:
-        
+
         ## 就四种情况,
         ## 先写终止
         if not t1 and not t2:
             return 
-        
+
         ## root 开始 中序
         if t1 and t2:
             root = TreeNode(t1.val + t2.val)
@@ -26,7 +26,7 @@ class Solution:
             return t1
         if not t1 :
             return t2
-      
+
         return root
 ```
 
@@ -39,7 +39,7 @@ class Solution:
 #         self.right = right
 class Solution:
     def mergeTrees(self, t1: TreeNode, t2: TreeNode) -> TreeNode:
-        
+
         ## 就四种情况,
         ## 先写终止
         if not t1: return t2
@@ -58,9 +58,8 @@ class Solution:
                 q.append((n1.right,n2.right))
             if not n1.right and n2.right:
                 n1.right = n2.right
-                    
+
         return t1 # return type 为tree 尽量不对输入tree 进行破坏
-                
 ```
 
 \606. Construct String from Binary Tree
@@ -75,13 +74,13 @@ class Solution:
 class Solution:
     def tree2str(self, root: TreeNode) -> str:
         ## preorder traversing way
-        
+
         return self.t(root)
-        
+
     def t(self, root) -> str:
         if not root:
             return ""
-        
+
         res = str(root.val)
         if root.left:
             res += "("
@@ -98,8 +97,6 @@ class Solution:
                 res += self.t(root.right)
                 res += ")"
         return res
-        
-            
 ```
 
 ```python
@@ -120,7 +117,7 @@ class Solution:
             node = stack.pop()
             if node == ')' or node == '(' or node == '()':
                 ans += node
-                
+
             else:
                 ans += str(node.val)
                 if not node.right and not node.left:
@@ -136,10 +133,5 @@ class Solution:
                 else: # 没有左边
                     stack.append('()')
         return ans
-
-
-            
-        
-            
 ```
 

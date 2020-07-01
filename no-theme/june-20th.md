@@ -1,6 +1,4 @@
-## june-20th
-
-
+# june-20th
 
 ```python
 class Solution:
@@ -10,7 +8,7 @@ class Solution:
         visited = [0] * n
         self.dfs(1,n,"",res,visited,k)
         return res[k-1]
-    
+
     def dfs(self,idx,n,path, res,visited,k):
 
         if len(path) == n:
@@ -18,20 +16,15 @@ class Solution:
             return 
         if len(res) > k :
             return 
-        
+
         for i in range(1,n+1):
             if visited[i-1] == 0:
                 visited[i-1] = 1
                 self.dfs(i + 1, n, path + str(i),res,visited,k)
                 visited[i-1] = 0
-            
-            
 ```
 
-
-
 ```python
-
 class Solution:
     def getPermutation(self, n: int, k: int) -> str:
         # Given n will be between 1 and 9 inclusive.
@@ -43,17 +36,17 @@ class Solution:
         path = []
         self.dfs(1,n,path,visited,k,factorial)
         return "".join(path)
-    
+
     def dfs(self,idx,n, path, visited,k,factorial):
         if len(path) == n:
             # print(path)
             return 
-        
+
         ## 读取数位 
         cnt = factorial[n - idx - 1]
         for i in range(1,n+1):
             if visited[i-1] == 0:
-                
+
                 ## 跳 
                 if cnt < k :
                     k -= cnt 
@@ -62,8 +55,6 @@ class Solution:
                 path.append(str(i))
                 self.dfs(idx + 1, n, path,visited,k,factorial)
 ```
-
-
 
 \739. Daily Temperatures
 
@@ -79,7 +70,7 @@ class Solution:
                 ans[stack[-1][0]] = i - stack[-1][0]
                 stack.pop()
             stack.append((i,T[i]))
-            
+
         return ans
 ```
 

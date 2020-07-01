@@ -1,9 +1,8 @@
-## june 15th
+# june-15th
 
 \572. Subtree of Another Tree
 
 ```python
-
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, val=0, left=None, right=None):
@@ -20,7 +19,7 @@ class Solution:
             return False
         ## 分别和 s 的一家三口比较
         return self.isValid(s, t) or self.isSubtree(s.left,t) or self.isSubtree(s.right,t)
-        
+
     def isValid(self,s,t): ## helper 负责判断节点, 递归只做一件事.
         if not s and not t:
             return True
@@ -31,11 +30,9 @@ class Solution:
             r = self.isValid(s.right,t.right)
             return l and r
         return False
-            
 ```
 
 ```python
-
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, val=0, left=None, right=None):
@@ -51,7 +48,7 @@ class Solution:
         self.preorder(t,self.t_list)
         # print(self.s_list, self.t_list)
         return self.kmp(self.s_list, self.t_list) != -1
-        
+
     def preorder(self,root,ans):
         if not root:
             ans.append("#")
@@ -59,7 +56,7 @@ class Solution:
         ans.append(str(root.val))
         self.preorder(root.left,ans)
         self.preorder(root.right,ans)
-        
+
     ## 这里不用kmp 也行, python str 是用c 写的,str 判断暴力也不会超时.
     def get_next(self, T):
         i = 0
@@ -92,17 +89,14 @@ class Solution:
             return -1
 ```
 
-
-
 \1268. Search Suggestions System
 
 ```python
-
 class Solution:
     def suggestedProducts(self, products: List[str], searchWord: str) -> List[List[str]]:
         ### 终于到tries了... 
         ### 暴力 
-    
+
         products.sort()
         search_start = 0 
         ans = []
@@ -112,7 +106,7 @@ class Solution:
             search_start = iter_find
 
         return ans 
-        
+
     ## 自己造轮子,复习bi
     def bi_helper(self,p , s, search_start = 0):
         l = search_start
@@ -125,6 +119,4 @@ class Solution:
                 r = mid
         return l
 ```
-
-
 

@@ -1,9 +1,8 @@
-## june-5th
+# june-5th
 
 \103. Binary Tree Zigzag Level Order Traversal
 
 ```python
-
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, val=0, left=None, right=None):
@@ -12,7 +11,7 @@
 #         self.right = right
 class Solution:
     def zigzagLevelOrder(self, root: TreeNode) -> List[List[int]]:
-        
+
         ## 话说 最简单的层次遍历完... 
         ## 然后奇偶 翻转 
         ## 但是...这么做 肯定不是这题本意
@@ -38,17 +37,11 @@ class Solution:
                 else:
                     ans.append(level[::-1])
         return ans
-            
-            
-            
-        
 ```
 
-`[
-Back](https://www.lintcode.com/ladder/1/)242. Convert Binary Tree to Linked Lists by Depth
+\`[ Back](https://www.lintcode.com/ladder/1/)242. Convert Binary Tree to Linked Lists by Depth
 
 ```python
-
 """
 Definition of TreeNode:
 class TreeNode:
@@ -67,7 +60,7 @@ class Solution:
     def binaryTreeToLists(self, root):
         # Write your code here
         ## 这不就是模板题...
-        
+
         q = collections.deque()
         q.append(root)
         ans = []
@@ -83,10 +76,10 @@ class Solution:
                 head = head.next
                 q.append(node.left)
                 q.append(node.right)
-                
+
             if dummy.next:
                 ans.append(dummy.next)
-                
+
         return ans
 ```
 

@@ -1,31 +1,24 @@
-## April 6th
+# april-6th
 
-278. **First Bad Version**
-```python
-# The isBadVersion API is already defined for you.
-# @param version, an integer
-# @return a bool
-# def isBadVersion(version):
+1. **First Bad Version**
 
-class Solution:
-    def firstBadVersion(self, n):
-        """
-        :type n: int
-        :rtype: int
-        """
-        l = 1
-        while l <= n:
-            mid = l + (n - l ) // 2
-            if isBadVersion(mid):
-                n = mid - 1
-            else:
-                l = mid + 1
-        return l
-    ## 这题 双闭区间, 关键是区间,不是是不是0开始
+   \`\`\`python
+
+   **The isBadVersion API is already defined for you.**
+
+   **@param version, an integer**
+
+   **@return a bool**
+
+   **def isBadVersion\(version\):**
+
+class Solution: def firstBadVersion\(self, n\): """ :type n: int :rtype: int """ l = 1 while l &lt;= n: mid = l + \(n - l \) // 2 if isBadVersion\(mid\): n = mid - 1 else: l = mid + 1 return l
+
+```text
+## 这题 双闭区间, 关键是区间,不是是不是0开始
 ```
 
-
-
+```text
 34. **Find First and Last Position of Element in Sorted Array**
 
 ```python
@@ -38,7 +31,7 @@ class Solution:
             return [-1,-1]
         if target<nums[0] or target > nums[-1]:
             return [-1,-1]
-        
+
         left_index = right_index = None
         l , r = 0 , len(nums)
         ## [5,7,7,8,8,10]
@@ -52,7 +45,7 @@ class Solution:
         left_index = l
         if nums[left_index] != target:
             return [-1,-1]
-        
+
         l , r = 0 , len(nums)
         while l < r:
             mid = (l + r )//2
@@ -60,33 +53,30 @@ class Solution:
                 l = mid + 1 # 向上缩小空间
             elif nums[mid] > target:
                 r = mid 
-                
+
         right_index = l - 1
-        
+
         return [left_index, right_index]
-            
 ```
 
-
-
-852. **Peak Index in a Mountain Array**
+1. **Peak Index in a Mountain Array**
 
 ```python
 class Solution:
     def peakIndexInMountainArray(self, A: List[int]) -> int:
-        
+
         ## 看了下题目全正整数,没复杂度要求
         ## (1)
         return A.index(max(A))
-    
-    	## (2)
+
+        ## (2)
         ans = 0
         for i in range(len(A)):
             if A[i] >= ans:
                 ans = A[i]
             else:
                 return i-1
-            
+
         ## 二分
         l, r = 0, len(A) -1 # 后面有mid + 1
         while l < r:
@@ -97,12 +87,9 @@ class Solution:
             else:
                 r = mid   
         return l
-        
 ```
 
-
-
-153. **Find Minimum in Rotated Sorted Array**
+1. **Find Minimum in Rotated Sorted Array**
 
 ```python
 class Solution:
@@ -115,12 +102,10 @@ class Solution:
                 l = mid+1
             else:
                 r = mid
-        return nums[l] # 终止条件 l == r 
+        return nums[l] # 终止条件 l == r
 ```
 
-
-
-162. **Find Peak Element**
+1. **Find Peak Element**
 
 ```python
 class Solution:
@@ -135,12 +120,10 @@ class Solution:
             else:
                 r= mid
         return l 
-    ### 这也算mid? 找到一个peek 
+    ### 这也算mid? 找到一个peek
 ```
 
-
-
-702. **Search in a Big Sorted Array** 
+1. **Search in a Big Sorted Array** 
 
 ```python
 class Solution:
@@ -156,7 +139,7 @@ class Solution:
         # reader.get(r) 大于等于target
         ## 区间 []
         l = r//2
-       	while l <= r:
+           while l <= r:
             mid = l + (r - l)//2
             v = reader.get(mid) ## 防止再call
             if v == target:
@@ -168,9 +151,7 @@ class Solution:
         return -1
 ```
 
-
-
-658. **Find K Closest Elements**
+1. **Find K Closest Elements**
 
 ```python
 class Solution:
@@ -185,7 +166,7 @@ class Solution:
             return arr[:k]
         if x > arr[-1]:
             return arr[-k:]
-        
+
         l, r = 0, len(arr)-k
         ## 区间 [) 
         while l < r: ## 终止 == 

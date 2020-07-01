@@ -1,6 +1,4 @@
-## may-15th
-
-
+# may-15th
 
 ```python
 class Solution:
@@ -35,10 +33,7 @@ class Solution:
         return filter(len, ans.split('\n'))
 ```
 
-
-
 ```python
-
 class Solution:
     """
     @param s1: the 1st string
@@ -49,14 +44,14 @@ class Solution:
         # write your code here
         a =set(s1)
         b =set(s2)
-        
+
         ab = a.intersection(b)
         ans = ''
         for i in s1+s2 :
             if i not in ab:
                 ans += i
-                
+
         return ans
-    ## set 
+    ## set
 ```
 

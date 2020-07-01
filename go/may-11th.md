@@ -1,13 +1,10 @@
-## may-11th
-
-
+# may-11th
 
 ```go
-
 func firstUniqChar(s string) int {
     if len(s) == 0 {
         return -1
-    
+
     }
     // 不需要key 为 string,这要快点
     var dit = make(map[rune]int) //构建dit values 为int 单个
@@ -23,9 +20,7 @@ func firstUniqChar(s string) int {
 }
 ```
 
-
-
-189. **Rotate Array**
+1. **Rotate Array**
 
 ```go
 class Solution:
@@ -40,7 +35,6 @@ class Solution:
 ```
 
 ```go
-
 func rotate(nums []int, k int)  {
     k =k%len(nums)
     if k == 0 {
@@ -59,14 +53,12 @@ func rotate(nums []int, k int)  {
         idx ++
         temp , nums[target_idx] = nums[idx],temp
         step ++ 
-        
+
     }
 }
 ```
 
-
-
-````go
+```go
 //还是reverse 好写
 func rotate(nums []int, k int)  {
     k =k%len(nums)
@@ -85,6 +77,5 @@ func reverse(nums []int, l int, r int) {
         r--
     }
 }
-
-````
+```
 

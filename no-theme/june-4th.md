@@ -1,9 +1,8 @@
-## june-4th
+# june-4th
 
 \662. Maximum Width of Binary Tree
 
 ```python
-
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, val=0, left=None, right=None):
@@ -14,7 +13,7 @@ class Solution:
     def widthOfBinaryTree(self, root: TreeNode) -> int:
         ## 题目都说了 full binary tree
         ## 那就bfs 
-        
+
         q = collections.deque()
         q.append((root,0))
         ans = 0
@@ -29,11 +28,9 @@ class Solution:
                 if node.right:
                     q.append((node.right,posistion*2 + 1))
             ans = max(ans,level[-1] - level[0] + 1)
-            
+
         return ans
 ```
-
-
 
 ```python
 """
@@ -57,22 +54,22 @@ class Solution:
         self.ans_nodes = root
         self.dfs(root)
         return self.ans_node
-        
-        
+
+
     def dfs(self, root):
-        
+
         if not root:
             return 0, None
-            
+
         right_s, right_node = self.dfs(root.right)
         left_s, left_node = self.dfs(root.left)
-        
+
         s = root.val + right_s + left_s
-        
+
         if s > self.s:
             self.s = s
             self.ans_node = root
-            
+
         return s, root
 ```
 

@@ -1,4 +1,4 @@
-## june -16th
+# june-16th
 
 \240. Search a 2D Matrix II
 
@@ -11,7 +11,7 @@ func searchMatrix(matrix [][]int, target int) bool {
     if matrix[row][left] > target {
         return false
     }
-    
+
     for row < len(matrix) {
         idx := biSearch(matrix[row],target,len(matrix[0]),left)
         if idx == len(matrix[0]) {
@@ -26,10 +26,10 @@ func searchMatrix(matrix [][]int, target int) bool {
     }
     return false
 }
-    
+
 
 func biSearch( m []int, target , right , left int) int {
-	// 有重复元素 没优化好
+    // 有重复元素 没优化好
     for left < right {
         mid := (left + right)/2
         if m[mid] == target{
@@ -41,7 +41,7 @@ func biSearch( m []int, target , right , left int) int {
         }
     }
     return left
-    
+
 }
 //NlogN
 ```
@@ -65,7 +65,7 @@ func copyRandomList(head *Node) *Node {
     q, dummy := head, &Node{} // dummy 是初始值的node
     p := dummy
     history := make(map[*Node]*Node)
-    
+
     // 遍历 q 
     for q != nil {
         // 主要是一直更换q -> q = q.Next
@@ -76,7 +76,7 @@ func copyRandomList(head *Node) *Node {
         p.Next = history[q]
         // 弄完主干
         p = p.Next
-        
+
         if q.Random != nil {
             if history[q.Random] == nil {
                 history[q.Random] = &Node{Val : q.Random.Val}
@@ -88,7 +88,7 @@ func copyRandomList(head *Node) *Node {
         q = q.Next
     }
     return dummy.Next 
-    
+
 }
 ```
 

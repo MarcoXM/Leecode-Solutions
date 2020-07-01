@@ -1,6 +1,4 @@
-## may-16th
-
-
+# may-16th
 
 \513. Find Bottom Left Tree Value
 
@@ -31,7 +29,7 @@ class Solution:
             if len(level) > 0:
                 res[:] = level # 优化
         return res[0]
-                
+
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, val=0, left=None, right=None):
@@ -46,7 +44,7 @@ class Solution:
         def dfs(root,level):
             if not root:
                 return
-    
+
             if level == len(res):
                 res.append([])   
             res[level].append(root.val)
@@ -55,9 +53,9 @@ class Solution:
         res = []
         dfs(root,0)
         return res[-1][0]
-                
-                
-                
+
+
+
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, val=0, left=None, right=None):
@@ -81,14 +79,9 @@ class Solution:
                 res[0] = level
             stack.append((node.right,level + 1)) # 先进后出
             stack.append((node.left,level+1))
-        
+
         return res[1]
-                
-                
-                
 ```
-
-
 
 \333. Largest BST Subtree
 
@@ -104,17 +97,17 @@ class Solution:
         ### 不符合复杂度，符合软件工程模块化．．．
         if not root:
             return 0
-        
+
         if self.isValidBST(root):
             return self.count(root)
         return max(self.largestBSTSubtree(root.left),self.largestBSTSubtree(root.right))
-    
+
     ## 数数　
     def count(self,root):
         if not root:
             return 0
         return self.count(root.left) + self.count(root.right) + 1
-    
+
     ##　判定
     def isValidBST(self, root: TreeNode) -> bool:
         if not root:
@@ -132,13 +125,8 @@ class Solution:
             pre = root
             root = root.right
         return True
-	## 复杂度 0(N^2)
-    
-    
-
+    ## 复杂度 0(N^2)
 ```
-
-
 
 ```python
 # Definition for a binary tree node.
@@ -151,14 +139,14 @@ class Solution:
     def largestBSTSubtree(self, root: TreeNode) -> int:
         ans = self.dfs(root,-float('inf'),float('inf'))
         return ans[0]
-        
+
     def dfs(self, root, MIN, MAX):
         if not root:
             return (0,MIN,MAX)
         ## 先操作 儿子, 然后再到爸爸, 就是后序遍历 
         left = self.dfs(root.left, MIN, MAX)
         right = self.dfs(root.rght, MIN, MAX)
-        
+
         if root.val > left[2] and root.val < right[1]:
             return (left[0] + right[0] + 1, min(root.val,left[1]), max(root.val,right[2]))
         else:

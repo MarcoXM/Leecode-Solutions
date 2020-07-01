@@ -1,6 +1,6 @@
-## april-16th
+# april-16th
 
-1383. **Maximum Performance of a Team**
+1. **Maximum Performance of a Team**
 
 ```python
 class Solution:
@@ -17,11 +17,9 @@ class Solution:
                 csum -= heapq.heappop(h) # update current sum of the queue
             ans = max(ans,csum * e)
         return ans % (10**9 + 7)
-    
+
     ## 典型的heap sort 套路,一开始sort复杂度NlogN,后面遍历NlogK ,N(logN + Log K)
 ```
-
-
 
 1382.**Balance a Binary Search Tree**
 
@@ -42,7 +40,7 @@ class Solution:
             values.append(root.val) #inorder 不用sort  
             getval(root.right)
         getval(root)
-        
+
         def build(i, j):
             if i > j :
                 return None
@@ -51,11 +49,11 @@ class Solution:
             root.left = build(i,mid - 1)
             root.right = build(mid + 1,j)
             return root
-        
+
         return build(0,len(values) - 1)
-            
+
        # 复杂度 N,
-    
+
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -72,7 +70,7 @@ class Solution:
             roots.append(root)
             getval(root.right)
         getval(root)
-        
+
         def build(i, j):
             if i > j :
                 return None
@@ -81,10 +79,9 @@ class Solution:
             root.left = build(i,mid - 1)
             root.right = build(mid + 1,j)
             return root
-        
+
         return build(0,len(roots) - 1)
-            
+
         ## 少了重建环节,速度更快
-            
 ```
 

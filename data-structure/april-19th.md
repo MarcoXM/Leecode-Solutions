@@ -1,6 +1,6 @@
-## april-19th
+# april-19th
 
-3. L**ongest Substring Without Repeating Characters**
+1. L**ongest Substring Without Repeating Characters**
 
 ```python
 class Solution:
@@ -25,9 +25,9 @@ class Solution:
                 q.popleft()
                 dit[s[i]] = i
                 q.append(i)
-                
+
         return ans # O(N)
-    
+
     ## 优化,不需要queue
     class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:

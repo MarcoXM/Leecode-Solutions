@@ -1,9 +1,8 @@
-## may-20th
+# may-20th
 
 \683. Word Break II
 
 ```python
-
 class Solution:
     def wordBreak(self, s: str, wordDict: List[str]) -> List[str]:
         ## 就是打印路徑 
@@ -13,13 +12,13 @@ class Solution:
         res = []
         self.dfs(0, s, res, [], wd, visited)
         return res
-        
+
     def dfs(self, idx, s, res,  path, wd, visited):
-        
+
         if idx == len(s):
             res.append(" ".join(path[:]))
             return 
-        
+
         for i in range(idx + 1, len(s) + 1):
             if visited[idx][i-1] == 0:
                 return
@@ -31,7 +30,7 @@ class Solution:
                 self.dfs(i, s, res, path, wd, visited)
                 path.pop()
                 visited[idx][i-1] == -1
-	## 典型的所有技巧都用上, 都被暴打.....
+    ## 典型的所有技巧都用上, 都被暴打.....
 ```
 
 ```python
@@ -42,9 +41,9 @@ class Solution:
         res = {}
         ans = self.dfs(s, res, wd)
         return list(map(lambda x: x.strip(),ans))
-        
+
     def dfs(self, s, res, wd):
-        
+
         if s in res.keys():
             return res[s]
         if s == "": # 類比到了葉子,返回葉子value,爲什麼是[]? 因爲遞歸函數定義就是返回list
@@ -58,7 +57,7 @@ class Solution:
                 path.append(w + " " + sub)
         res[s] = path
         return res[s]
-    
+
     ##　對於　經典例子　ａａａａａ　這裏便利ｗｏｒｄｄｉｃｔ，剪得明顯．
 ```
 
@@ -77,22 +76,22 @@ class Solution:
         res = {}
         d = set(map(lambda x:x.lower(),dict))
         return self.dfs(s.lower(),d,res)
-        
-        
+
+
     def dfs(self, s, wd, res):
-        
+
         if s in res:
             return res[s]
-        
+
         count = 0 ## root的值就是零,
         if s in wd: ## 操作就一個 數葉子 !
             count += 1
-            
+
         ##　想明白以後就是求按要求劃分，最後畫出來的樹的葉子數目　
-            
+
         if s == "":
             return 0
-            
+
         if len(s) > len(wd):
             for w in wd:
                 if s[:len(w)] != w:
@@ -107,6 +106,6 @@ class Solution:
                 count += self.dfs(s[i:], wd, res )
             res[s] = count
         return res[s]
-        ## 還是畫樹吧 
+        ## 還是畫樹吧
 ```
 
