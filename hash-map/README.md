@@ -1,2 +1,2 @@
-# Hash-Map
+# Lintcode
 
