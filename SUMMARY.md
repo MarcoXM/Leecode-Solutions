@@ -179,6 +179,7 @@
   * [1503. Last Moment Before All Ants Fall Out of a Plank](leetcode/1503.-last-moment-before-all-ants-fall-out-of-a-plank.md)
 * [剑指offer](jian-zhi-offer/README.md)
   * [剑指 Offer 03. 数组中重复的数字](jian-zhi-offer/jian-zhi-offer-03.-shu-zu-zhong-zhong-fu-de-shu-zi.md)
+  * [剑指 Offer 04. 二维数组中的查找](jian-zhi-offer/jian-zhi-offer-04.-er-wei-shu-zu-zhong-de-cha-zhao.md)
 * [Lintcode](hash-map/README.md)
   * [33. N-Queens](hash-map/33.-n-queens.md)
   * [31. Partition Array](hash-map/31.-partition-array.md)
