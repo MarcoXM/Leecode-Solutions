@@ -177,6 +177,8 @@
   * [1351. Count Negative Numbers in a Sorted Matrix](leetcode/1351.-count-negative-numbers-in-a-sorted-matrix.md)
   * [1502. Can Make Arithmetic Progression From Sequence](leetcode/1502.-can-make-arithmetic-progression-from-sequence.md)
   * [1503. Last Moment Before All Ants Fall Out of a Plank](leetcode/1503.-last-moment-before-all-ants-fall-out-of-a-plank.md)
+* [剑指offer](jian-zhi-offer/README.md)
+  * [剑指 Offer 03. 数组中重复的数字](jian-zhi-offer/jian-zhi-offer-03.-shu-zu-zhong-zhong-fu-de-shu-zi.md)
 * [Lintcode](hash-map/README.md)
   * [33. N-Queens](hash-map/33.-n-queens.md)
   * [31. Partition Array](hash-map/31.-partition-array.md)
