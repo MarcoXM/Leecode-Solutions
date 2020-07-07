@@ -45,6 +45,7 @@
   * [91. Decode Ways](leetcode/91.-decode-ways.md)
   * [94. Binary Tree Inorder Traversal](leetcode/94.-binary-tree-inorder-traversal.md)
   * [98. Validate Binary Search Tree](leetcode/98.-validate-binary-search-tree.md)
+  * [100. Same Tree](leetcode/100.-same-tree-1.md)
   * [101. Symmetric Tree](leetcode/101.-symmetric-tree.md)
   * [102. Binary Tree Level Order Traversal](leetcode/102.-binary-tree-level-order-traversal.md)
   * [103. Binary Tree Zigzag Level Order Traversal](leetcode/103.-binary-tree-zigzag-level-order-traversal.md)
