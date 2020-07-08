@@ -196,6 +196,7 @@
   * [剑指 Offer 14- I. 剪绳子](jian-zhi-offer/jian-zhi-offer-14-i.-jian-sheng-zi.md)
   * [剑指 Offer 15. 二进制中1的个数](jian-zhi-offer/jian-zhi-offer-15.-er-jin-zhi-zhong-1-de-ge-shu.md)
   * [剑指 Offer 16. 数值的整数次方](jian-zhi-offer/jian-zhi-offer-16.-shu-zhi-de-zheng-shu-ci-fang.md)
+  * [剑指 Offer 18. 删除链表的节点](jian-zhi-offer/jian-zhi-offer-18.-shan-chu-lian-biao-de-jie-dian.md)
 * [力扣-面试题](li-kou-mian-shi-ti/README.md)
   * [面试题 16.11. 跳水板](li-kou-mian-shi-ti/mian-shi-ti-16.11.-tiao-shui-ban.md)
 * [Lintcode](hash-map/README.md)
