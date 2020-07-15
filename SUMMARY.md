@@ -78,6 +78,7 @@
   * [139. Word Break](leetcode/139.-word-break.md)
   * [140. Word Break II](leetcode/140.-word-break-ii.md)
   * [141. Linked List Cycle](leetcode/141.-linked-list-cycle.md)
+  * [144. Binary Tree Preorder Traversal](leetcode/144.-binary-tree-preorder-traversal.md)
   * [146. LRU Cache](leetcode/146.-lru-cache.md)
   * [149. Max Points on a Line](leetcode/149.-max-points-on-a-line.md)
   * [151. Reverse Words in a String](leetcode/151.-reverse-words-in-a-string.md)
