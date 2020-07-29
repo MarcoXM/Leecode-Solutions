@@ -23,6 +23,7 @@
   * [30. Substring with Concatenation of All Words](leetcode/30.-substring-with-concatenation-of-all-words.md)
   * [31. Next Permutation](leetcode/31.-next-permutation.md)
   * [32. Longest Valid Parentheses](leetcode/32.-longest-valid-parentheses.md)
+  * [33. Search in Rotated Sorted Array](leetcode/33.-search-in-rotated-sorted-array.md)
   * [34. Find First and Last Position of Element in Sorted Array](leetcode/34.-find-first-and-last-position-of-element-in-sorted-array.md)
   * [39. Combination Sum](leetcode/39.-combination-sum.md)
   * [40. Combination Sum II](leetcode/40.-combination-sum-ii.md)
