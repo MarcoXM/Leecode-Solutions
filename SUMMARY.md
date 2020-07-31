@@ -230,6 +230,7 @@
   * [剑指 Offer 16. 数值的整数次方](jian-zhi-offer/jian-zhi-offer-16.-shu-zhi-de-zheng-shu-ci-fang.md)
   * [剑指 Offer 18. 删除链表的节点](jian-zhi-offer/jian-zhi-offer-18.-shan-chu-lian-biao-de-jie-dian.md)
 * [力扣-面试题](li-kou-mian-shi-ti/README.md)
+  * [面试题 08.03. 魔术索引](li-kou-mian-shi-ti/mian-shi-ti-08.03.-mo-shu-suo-yin.md)
   * [面试题 16.11. 跳水板](li-kou-mian-shi-ti/mian-shi-ti-16.11.-tiao-shui-ban.md)
   * [面试题 17.13. 恢复空格](li-kou-mian-shi-ti/mian-shi-ti-17.13.-hui-fu-kong-ge.md)
 * [Lintcode](hash-map/README.md)
