@@ -155,6 +155,7 @@
   * [450. Delete Node in a BST](leetcode/450.-delete-node-in-a-bst.md)
   * [451. Sort Characters By Frequency](leetcode/451.-sort-characters-by-frequency.md)
   * [459. Repeated Substring Pattern](leetcode/459.-repeated-substring-pattern.md)
+  * [460. LFU Cache](leetcode/460.-lfu-cache.md)
   * [461. Hamming Distance](leetcode/461.-hamming-distance.md)
   * [463. Island Perimeter](leetcode/463.-island-perimeter.md)
   * [503. Next Greater Element II](leetcode/503.-next-greater-element-ii.md)
