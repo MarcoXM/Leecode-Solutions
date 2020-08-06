@@ -140,7 +140,7 @@
   * [322. Coin Change](leetcode/322.-coin-change.md)
   * [332. Reconstruct Itinerary](leetcode/332.-reconstruct-itinerary.md)
   * [333. Largest BST Subtree](leetcode/333.-largest-bst-subtree.md)
-  * [Untitled](leetcode/untitled-3.md)
+  * [336. palindrome pairs](leetcode/untitled-3.md)
   * [337. House Robber III](leetcode/337.-house-robber-iii.md)
   * [344. Reverse String](leetcode/344.-reverse-string.md)
   * [346. Moving Average from Data Stream](leetcode/346.-moving-average-from-data-stream.md)

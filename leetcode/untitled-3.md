@@ -1,4 +1,4 @@
-# Untitled
+# 336. palindrome pairs
 
 {% tabs %}
 {% tab title="Python" %}
