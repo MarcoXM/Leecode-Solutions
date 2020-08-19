@@ -198,6 +198,7 @@
   * [692. Top K Frequent Words](leetcode/692.-top-k-frequent-words.md)
   * [695. Max Area of Island](leetcode/695.-max-area-of-island.md)
   * [702. Search in a Big Sorted Array](leetcode/702.-search-in-a-big-sorted-array.md)
+  * [706. Design HashMap](leetcode/706.-design-hashmap.md)
   * [722. Remove Comments](leetcode/722.-remove-comments.md)
   * [739. Daily Temperatures](leetcode/739.-daily-temperatures.md)
   * [Untitled](leetcode/untitled-1.md)
