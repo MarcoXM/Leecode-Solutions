@@ -42,6 +42,7 @@
   * [56. Merge Intervals](leetcode/56.-merge-intervals.md)
   * [59. Spiral Matrix II](leetcode/59.-spiral-matrix-ii.md)
   * [60. Permutation Sequence](leetcode/60.-permutation-sequence.md)
+  * [62. Unique Paths](leetcode/62.-unique-paths.md)
   * [63. Unique Paths II](leetcode/63.-unique-paths-ii.md)
   * [66. Plus One](leetcode/66.-plus-one.md)
   * [69. Sqrt\(x\)](leetcode/69.-sqrt-x.md)
