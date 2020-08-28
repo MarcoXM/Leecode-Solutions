@@ -171,6 +171,7 @@
   * [460. LFU Cache](leetcode/460.-lfu-cache.md)
   * [461. Hamming Distance](leetcode/461.-hamming-distance.md)
   * [463. Island Perimeter](leetcode/463.-island-perimeter.md)
+  * [470. Implement Rand10\(\) Using Rand7\(\)](leetcode/470.-implement-rand10-using-rand7.md)
   * [503. Next Greater Element II](leetcode/503.-next-greater-element-ii.md)
   * [513. Find Bottom Left Tree Value](leetcode/513.-find-bottom-left-tree-value.md)
   * [518. Coin Change 2](leetcode/518.-coin-change-2.md)
