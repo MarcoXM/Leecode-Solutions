@@ -266,6 +266,8 @@
   * [1562. Find Latest Group of Size M](leetcode/1562.-find-latest-group-of-size-m.md)
   * [1563. Stone Game V](leetcode/1563.-stone-game-v.md)
   * [Untitled](leetcode/untitled-5.md)
+  * [1566. Detect Pattern of Length M Repeated K or More Times](leetcode/1566.-detect-pattern-of-length-m-repeated-k-or-more-times.md)
+  * [1567. Maximum Length of Subarray With Positive Product](leetcode/1567.-maximum-length-of-subarray-with-positive-product.md)
 * [剑指offer](jian-zhi-offer/README.md)
   * [剑指 Offer 03. 数组中重复的数字](jian-zhi-offer/jian-zhi-offer-03.-shu-zu-zhong-zhong-fu-de-shu-zi.md)
   * [剑指 Offer 04. 二维数组中的查找](jian-zhi-offer/jian-zhi-offer-04.-er-wei-shu-zu-zhong-de-cha-zhao.md)
