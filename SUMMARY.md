@@ -274,6 +274,7 @@
   * [1567. Maximum Length of Subarray With Positive Product](leetcode/1567.-maximum-length-of-subarray-with-positive-product.md)
   * [1572. Matrix Diagonal Sum](leetcode/1572.-matrix-diagonal-sum.md)
   * [1573. Number of Ways to Split a String](leetcode/1573.-number-of-ways-to-split-a-string.md)
+  * [1574. Shortest Subarray to be Removed to Make Array Sorted](leetcode/1574.-shortest-subarray-to-be-removed-to-make-array-sorted.md)
 * [剑指offer](jian-zhi-offer/README.md)
   * [剑指 Offer 03. 数组中重复的数字](jian-zhi-offer/jian-zhi-offer-03.-shu-zu-zhong-zhong-fu-de-shu-zi.md)
   * [剑指 Offer 04. 二维数组中的查找](jian-zhi-offer/jian-zhi-offer-04.-er-wei-shu-zu-zhong-de-cha-zhao.md)
