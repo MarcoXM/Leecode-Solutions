@@ -151,6 +151,7 @@
   * [337. House Robber III](leetcode/337.-house-robber-iii.md)
   * [344. Reverse String](leetcode/344.-reverse-string.md)
   * [346. Moving Average from Data Stream](leetcode/346.-moving-average-from-data-stream.md)
+  * [347. Top K frequency](leetcode/347.-top-k-frequency.md)
   * [350. Intersection of Two Arrays II](leetcode/350.-intersection-of-two-arrays-ii.md)
   * [355. Design Twitter](leetcode/355.-design-twitter.md)
   * [380. Insert Delete GetRandom O\(1\)](leetcode/380.-insert-delete-getrandom-o-1.md)
