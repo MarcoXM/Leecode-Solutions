@@ -40,6 +40,7 @@
   * [53. Maximum Subarray](leetcode/53.-maximum-subarray.md)
   * [54. Spiral Matrix](leetcode/54.-spiral-matrix.md)
   * [56. Merge Intervals](leetcode/56.-merge-intervals.md)
+  * [57. Insert Interval](leetcode/57.-insert-interval.md)
   * [59. Spiral Matrix II](leetcode/59.-spiral-matrix-ii.md)
   * [60. Permutation Sequence](leetcode/60.-permutation-sequence.md)
   * [62. Unique Paths](leetcode/62.-unique-paths.md)
