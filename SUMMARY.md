@@ -35,6 +35,7 @@
   * [43. Multiply Strings](leetcode/43.-multiply-strings.md)
   * [44. Wildcard Matching](leetcode/44.-wildcard-matching.md)
   * [46. Permutations](leetcode/46.-permutations.md)
+  * [47. Permutations II](leetcode/47..md)
   * [48. Rotate Image](leetcode/48.-rotate-image.md)
   * [49. Group Anagrams](leetcode/49.-group-anagrams.md)
   * [50. Power\(x, n\)](leetcode/50.-power-x-n.md)
