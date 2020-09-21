@@ -283,6 +283,8 @@
   * [1574. Shortest Subarray to be Removed to Make Array Sorted](leetcode/1574.-shortest-subarray-to-be-removed-to-make-array-sorted.md)
   * [1583. Count Unhappy Friends](leetcode/1583.-count-unhappy-friends.md)
   * [1592. Rearrange Spaces Between Words](leetcode/1592.-rearrange-spaces-between-words.md)
+  * [1593. Split a String Into the Max Number of Unique Substrings](leetcode/1593.-split-a-string-into-the-max-number-of-unique-substrings.md)
+  * [1594. Maximum Non Negative Product in a Matrix](leetcode/1594.-maximum-non-negative-product-in-a-matrix.md)
 * [剑指offer](jian-zhi-offer/README.md)
   * [剑指 Offer 03. 数组中重复的数字](jian-zhi-offer/jian-zhi-offer-03.-shu-zu-zhong-zhong-fu-de-shu-zi.md)
   * [剑指 Offer 04. 二维数组中的查找](jian-zhi-offer/jian-zhi-offer-04.-er-wei-shu-zu-zhong-de-cha-zhao.md)
