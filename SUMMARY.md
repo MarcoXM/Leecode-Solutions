@@ -121,6 +121,7 @@
   * [220. Contains Duplicate III](leetcode/220.-contains-duplicate-iii.md)
   * [213. House Robber II](leetcode/213.-house-robber-ii.md)
   * [214. Shortest Palindrome](leetcode/214.-shortest-palindrome.md)
+  * [229. Majority Element II](leetcode/229.-majority-element-ii.md)
   * [230. Kth Smallest Element in a BST](leetcode/230.-kth-smallest-element-in-a-bst.md)
   * [232. Implement Queue using Stacks](leetcode/232.-implement-queue-using-stacks.md)
   * [235. Lowest Common Ancestor of a Binary Search Tree](leetcode/235.-lowest-common-ancestor-of-a-binary-search-tree.md)
