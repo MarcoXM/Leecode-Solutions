@@ -1,6 +1,12 @@
-# Untitled
+# 501. Find Mode in Binary Search Tree
 
 {% tabs %}
+{% tab title="" %}
+```
+### 不想做 Morris呀 
+```
+{% endtab %}
+
 {% tab title="中序优化" %}
 ```python
 # Definition for a binary tree node.
