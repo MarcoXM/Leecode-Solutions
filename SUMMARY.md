@@ -290,7 +290,7 @@
   * [1588. Sum of All Odd Length Subarrays](leetcode/1588.-sum-of-all-odd-length-subarrays.md)
   * [1589. Maximum Sum Obtained of Any Permutation](leetcode/1589.-maximum-sum-obtained-of-any-permutation.md)
   * [1590. Make Sum Divisible by P](leetcode/1590.-make-sum-divisible-by-p.md)
-  * [Untitled](leetcode/untitled-7.md)
+  * [1591. Strange Printer II](leetcode/untitled-7.md)
   * [1592. Rearrange Spaces Between Words](leetcode/1592.-rearrange-spaces-between-words.md)
   * [1593. Split a String Into the Max Number of Unique Substrings](leetcode/1593.-split-a-string-into-the-max-number-of-unique-substrings.md)
   * [1594. Maximum Non Negative Product in a Matrix](leetcode/1594.-maximum-non-negative-product-in-a-matrix.md)
