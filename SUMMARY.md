@@ -1,6 +1,8 @@
 # Table of contents
 
 * [Introduction](README.md)
+* [LCP](lcp/README.md)
+  * [LCP 19. 秋叶收藏集](lcp/lcp-19.-qiu-ye-shou-cang-ji.md)
 * [Leetcode - Problems](leetcode/README.md)
   * [2. Add Two Numbers](leetcode/2.-add-two-numbers.md)
   * [3. Longest Substring Without Repeating Characters](leetcode/3.-longest-substring-without-repeating-characters.md)
