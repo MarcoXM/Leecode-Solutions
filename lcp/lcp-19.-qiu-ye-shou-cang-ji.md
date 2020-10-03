@@ -46,6 +46,8 @@
 func minimumOperations(leaves string) int {
     n := len(leaves)
     dp := make([][]int,n)
+    
+    ## 讲真这个真的是最好的题目
     for i := range dp{
         dp[i] = make([]int, 3)
     }
