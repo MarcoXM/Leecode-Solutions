@@ -4,6 +4,7 @@
 * [LCP](lcp/README.md)
   * [LCP 01. 猜数字](lcp/lcp-01.-cai-shu-zi.md)
   * [LCP 02. 分式化简](lcp/lcp-02.-fen-shi-hua-jian.md)
+  * [LCP 03. 机器人大冒险](lcp/lcp-03.-ji-qi-ren-da-mao-xian.md)
   * [LCP 19. 秋叶收藏集](lcp/lcp-19.-qiu-ye-shou-cang-ji.md)
 * [Leetcode - Problems](leetcode/README.md)
   * [2. Add Two Numbers](leetcode/2.-add-two-numbers.md)
