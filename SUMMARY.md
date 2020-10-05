@@ -256,6 +256,7 @@
   * [1249. Minimum Remove to Make Valid Parentheses](leetcode/1249.-minimum-remove-to-make-valid-parentheses.md)
   * [1268. Search Suggestions System](leetcode/1268.-search-suggestions-system.md)
   * [1286. Iterator for Combination](leetcode/1286.-iterator-for-combination.md)
+  * [1288. Remove Covered Intervals](leetcode/1288.-remove-covered-intervals.md)
   * [1291. Sequential Digits](leetcode/1291.-sequential-digits.md)
   * [1293. Shortest Path in a Grid with Obstacles Elimination](leetcode/1293.-shortest-path-in-a-grid-with-obstacles-elimination.md)
   * [1300. Sum of Mutated Array Closest to Target](leetcode/1300.-sum-of-mutated-array-closest-to-target.md)
