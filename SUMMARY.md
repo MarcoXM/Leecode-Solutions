@@ -217,6 +217,7 @@
   * [685. Redundant Connection II](leetcode/685.-redundant-connection-ii.md)
   * [692. Top K Frequent Words](leetcode/692.-top-k-frequent-words.md)
   * [695. Max Area of Island](leetcode/695.-max-area-of-island.md)
+  * [701. Insert into a Binary Search Tree](leetcode/701.-insert-into-a-binary-search-tree.md)
   * [702. Search in a Big Sorted Array](leetcode/702.-search-in-a-big-sorted-array.md)
   * [706. Design HashMap](leetcode/706.-design-hashmap.md)
   * [713. Subarray Product Less Than K](leetcode/713.-subarray-product-less-than-k.md)
