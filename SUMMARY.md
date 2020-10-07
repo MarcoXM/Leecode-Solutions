@@ -7,6 +7,7 @@
   * [LCP 03. 机器人大冒险](lcp/lcp-03.-ji-qi-ren-da-mao-xian.md)
   * [LCP 19. 秋叶收藏集](lcp/lcp-19.-qiu-ye-shou-cang-ji.md)
 * [Leetcode - Problems](leetcode/README.md)
+  * [1. Two Sum](leetcode/1.-two-sum.md)
   * [2. Add Two Numbers](leetcode/2.-add-two-numbers.md)
   * [3. Longest Substring Without Repeating Characters](leetcode/3.-longest-substring-without-repeating-characters.md)
   * [5. Longest Palindromic Substring](leetcode/5.-longest-palindromic-substring.md)
