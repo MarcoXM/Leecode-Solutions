@@ -239,6 +239,7 @@
   * [836. Rectangle Overlap](leetcode/836.-rectangle-overlap.md)
   * [841. Keys and Rooms](leetcode/841.-keys-and-rooms.md)
   * [852. Peak Index in a Mountain Array](leetcode/852.-peak-index-in-a-mountain-array.md)
+  * [859. Buddy Strings](leetcode/859.-buddy-strings.md)
   * [902. Numbers At Most N Given Digit Set](leetcode/902.-numbers-at-most-n-given-digit-set.md)
   * [912. Sort an Array](leetcode/912.-sort-an-array.md)
   * [921. Minimum Add to Make Parentheses Valid](leetcode/921.-minimum-add-to-make-parentheses-valid.md)
