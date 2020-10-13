@@ -106,6 +106,7 @@
   * [144. Binary Tree Preorder Traversal](leetcode/144.-binary-tree-preorder-traversal.md)
   * [145. Binary Tree Postorder Traversal](leetcode/145.-binary-tree-postorder-traversal.md)
   * [146. LRU Cache](leetcode/146.-lru-cache.md)
+  * [148. Sort List](leetcode/148.-sort-list.md)
   * [149. Max Points on a Line](leetcode/149.-max-points-on-a-line.md)
   * [151. Reverse Words in a String](leetcode/151.-reverse-words-in-a-string.md)
   * [153. Find Minimum in Rotated Sorted Array](leetcode/153.-find-minimum-in-rotated-sorted-array.md)
