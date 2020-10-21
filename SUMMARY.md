@@ -248,6 +248,7 @@
   * [902. Numbers At Most N Given Digit Set](leetcode/902.-numbers-at-most-n-given-digit-set.md)
   * [912. Sort an Array](leetcode/912.-sort-an-array.md)
   * [921. Minimum Add to Make Parentheses Valid](leetcode/921.-minimum-add-to-make-parentheses-valid.md)
+  * [925. Long Pressed Name](leetcode/925.-long-pressed-name.md)
   * [949.  Largest Time for Given DigitsSolution](leetcode/949.-largest-time-for-given-digitssolution.md)
   * [957. Prison Cells After N Days](leetcode/957.-prison-cells-after-n-days.md)
   * [973. K Closest Points to Origin](leetcode/973.-k-closest-points-to-origin.md)
