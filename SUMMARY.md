@@ -248,6 +248,7 @@
   * [834. Sum of Distances in Tree](leetcode/834.-sum-of-distances-in-tree.md)
   * [836. Rectangle Overlap](leetcode/836.-rectangle-overlap.md)
   * [841. Keys and Rooms](leetcode/841.-keys-and-rooms.md)
+  * [845. Longest Mountain in Array](leetcode/845.-longest-mountain-in-array.md)
   * [852. Peak Index in a Mountain Array](leetcode/852.-peak-index-in-a-mountain-array.md)
   * [859. Buddy Strings](leetcode/859.-buddy-strings.md)
   * [902. Numbers At Most N Given Digit Set](leetcode/902.-numbers-at-most-n-given-digit-set.md)
