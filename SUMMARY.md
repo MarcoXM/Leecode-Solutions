@@ -338,6 +338,8 @@
   * [1619. Mean of Array After Removing Some Elements](leetcode/untitled-10.md)
   * [1620. Coordinate With Maximum Network Quality](leetcode/1620.-coordinate-with-maximum-network-quality.md)
   * [1621. Number of Sets of K Non-Overlapping Line Segments](leetcode/1621.-number-of-sets-of-k-non-overlapping-line-segments.md)
+  * [1629. Slowest Key](leetcode/1629.-slowest-key.md)
+  * [1630. Arithmetic Subarrays](leetcode/1630.-arithmetic-subarrays.md)
   * [Untitled](leetcode/untitled-11.md)
 * [剑指offer](jian-zhi-offer/README.md)
   * [剑指 Offer 03. 数组中重复的数字](jian-zhi-offer/jian-zhi-offer-03.-shu-zu-zhong-zhong-fu-de-shu-zi.md)
