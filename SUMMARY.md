@@ -244,6 +244,7 @@
   * [769.  Rotate String](leetcode/769.-rotate-string.md)
   * [784. Letter Case Permutation](leetcode/784.-letter-case-permutation.md)
   * [797. All Paths From Source to Target](leetcode/797.-all-paths-from-source-to-target.md)
+  * [799. Champagne Tower](leetcode/799.-champagne-tower.md)
   * [819. Most Common Word](leetcode/819.-most-common-word.md)
   * [834. Sum of Distances in Tree](leetcode/834.-sum-of-distances-in-tree.md)
   * [836. Rectangle Overlap](leetcode/836.-rectangle-overlap.md)
