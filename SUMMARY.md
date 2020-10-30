@@ -175,6 +175,7 @@
   * [350. Intersection of Two Arrays II](leetcode/350.-intersection-of-two-arrays-ii.md)
   * [355. Design Twitter](leetcode/355.-design-twitter.md)
   * [380. Insert Delete GetRandom O\(1\)](leetcode/380.-insert-delete-getrandom-o-1.md)
+  * [381. Insert Delete GetRandom O\(1\) - Duplicates allowed](leetcode/381.-insert-delete-getrandom-o-1-duplicates-allowed.md)
   * [384. Shuffle an Array](leetcode/384.-shuffle-an-array.md)
   * [387. First Unique Character in a String](leetcode/387.-first-unique-character-in-a-string.md)
   * [394. Decode String](leetcode/394.-decode-string.md)
