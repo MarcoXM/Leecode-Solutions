@@ -231,6 +231,7 @@
   * [680. Split String](leetcode/680.-split-string.md)
   * [682. Baseball Game](leetcode/682.-baseball-game.md)
   * [685. Redundant Connection II](leetcode/685.-redundant-connection-ii.md)
+  * [689. Maximum Sum of 3 Non-Overlapping Subarrays](leetcode/689.-maximum-sum-of-3-non-overlapping-subarrays.md)
   * [692. Top K Frequent Words](leetcode/692.-top-k-frequent-words.md)
   * [695. Max Area of Island](leetcode/695.-max-area-of-island.md)
   * [701. Insert into a Binary Search Tree](leetcode/701.-insert-into-a-binary-search-tree.md)
