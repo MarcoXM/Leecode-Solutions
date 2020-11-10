@@ -277,6 +277,7 @@
   * [987. Vertical Order Traversal of a Binary Tree](leetcode/987.-vertical-order-traversal-of-a-binary-tree.md)
   * [992. Subarrays with K Different Integers](leetcode/992.-subarrays-with-k-different-integers.md)
   * [1024. Video Stitching](leetcode/1024.-video-stitching.md)
+  * [1026. Maximum Difference Between Node and Ancestor](leetcode/1026.-maximum-difference-between-node-and-ancestor.md)
   * [1027. Longest Arithmetic Subsequence](leetcode/1027.-longest-arithmetic-subsequence.md)
   * [1029. Two City Scheduling](leetcode/1029.-two-city-scheduling.md)
   * [1041. Robot Bounded In Circle](leetcode/untitled-4.md)
