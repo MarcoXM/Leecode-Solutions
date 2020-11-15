@@ -185,6 +185,7 @@
   * [387. First Unique Character in a String](leetcode/387.-first-unique-character-in-a-string.md)
   * [394. Decode String](leetcode/394.-decode-string.md)
   * [399. Evaluate Division](leetcode/399.-evaluate-division.md)
+  * [402. Remove K Digits](leetcode/402.-remove-k-digits.md)
   * [404. Sum of Left Leaves](leetcode/404.-sum-of-left-leaves.md)
   * [409. Longest Palindrome](leetcode/409.-longest-palindrome.md)
   * [414. Third Maximum Number](leetcode/untitled.md)
