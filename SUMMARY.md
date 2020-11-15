@@ -187,6 +187,7 @@
   * [399. Evaluate Division](leetcode/399.-evaluate-division.md)
   * [402. Remove K Digits](leetcode/402.-remove-k-digits.md)
   * [404. Sum of Left Leaves](leetcode/404.-sum-of-left-leaves.md)
+  * [406. Queue Reconstruction by Height](leetcode/406.-queue-reconstruction-by-height.md)
   * [409. Longest Palindrome](leetcode/409.-longest-palindrome.md)
   * [414. Third Maximum Number](leetcode/untitled.md)
   * [421. Maximum XOR of Two Numbers in an Array](leetcode/421.-maximum-xor-of-two-numbers-in-an-array.md)
