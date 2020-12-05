@@ -92,6 +92,7 @@
   * [114. Flatten Binary Tree to Linked List](leetcode/114.-flatten-binary-tree-to-linked-list.md)
   * [116. Populating Next Right Pointers in Each Node](leetcode/116.-populating-next-right-pointers-in-each-node.md)
   * [117. Populating Next Right Pointers in Each Node II](leetcode/117.-populating-next-right-pointers-in-each-node-ii.md)
+  * [118. Pascal's Triangle](leetcode/118.-pascals-triangle.md)
   * [119. Pascals Triangle II](leetcode/119.-pascals-triangle-ii.md)
   * [120. Triangle](leetcode/120.-triangle.md)
   * [121. Best Time to Buy and Sell Stock](leetcode/121.-best-time-to-buy-and-sell-stock.md)
