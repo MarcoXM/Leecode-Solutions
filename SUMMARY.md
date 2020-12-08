@@ -268,6 +268,7 @@
   * [834. Sum of Distances in Tree](leetcode/834.-sum-of-distances-in-tree.md)
   * [836. Rectangle Overlap](leetcode/836.-rectangle-overlap.md)
   * [841. Keys and Rooms](leetcode/841.-keys-and-rooms.md)
+  * [842. Split Array into Fibonacci Sequence](leetcode/842.-split-array-into-fibonacci-sequence.md)
   * [845. Longest Mountain in Array](leetcode/845.-longest-mountain-in-array.md)
   * [849. Maximize Distance to Closest Person](leetcode/849.-maximize-distance-to-closest-person.md)
   * [852. Peak Index in a Mountain Array](leetcode/852.-peak-index-in-a-mountain-array.md)
