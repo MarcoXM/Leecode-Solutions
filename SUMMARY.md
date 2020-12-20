@@ -262,7 +262,7 @@
   * [735. Asteroid Collision](leetcode/735.-asteroid-collision.md)
   * [738. Monotone Increasing Digits](leetcode/738.-monotone-increasing-digits.md)
   * [739. Daily Temperatures](leetcode/739.-daily-temperatures.md)
-  * [Untitled](leetcode/untitled-1.md)
+  * [746. Min Cost Climbing Stairs](leetcode/untitled-1.md)
   * [762. Prime Number of Set Bits in Binary Representation](leetcode/762.-prime-number-of-set-bits-in-binary-representation.md)
   * [763. Partition Labels](leetcode/763.-partition-labels.md)
   * [769.  Rotate String](leetcode/769.-rotate-string.md)
