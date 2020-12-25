@@ -455,6 +455,8 @@
   * [面试题 01.09. 字符串轮转](li-kou-mian-shi-ti/mian-shi-ti-01.09.-zi-fu-chuan-lun-zhuan.md)
   * [面试题 02.01. 移除重复节点](li-kou-mian-shi-ti/mian-shi-ti-02.01.-yi-chu-zhong-fu-jie-dian.md)
   * [面试题 02.02. 返回倒数第 k 个节点](li-kou-mian-shi-ti/mian-shi-ti-02.02.-fan-hui-dao-shu-di-k-ge-jie-dian.md)
+  * [面试题 02.03. 删除中间节点](li-kou-mian-shi-ti/mian-shi-ti-02.03.-shan-chu-zhong-jian-jie-dian.md)
+  * [面试题 02.04. 分割链表](li-kou-mian-shi-ti/mian-shi-ti-02.04.-fen-ge-lian-biao.md)
   * [面试题 08.03. 魔术索引](li-kou-mian-shi-ti/mian-shi-ti-08.03.-mo-shu-suo-yin.md)
   * [面试题 16.11. 跳水板](li-kou-mian-shi-ti/mian-shi-ti-16.11.-tiao-shui-ban.md)
   * [面试题 17.13. 恢复空格](li-kou-mian-shi-ti/mian-shi-ti-17.13.-hui-fu-kong-ge.md)
