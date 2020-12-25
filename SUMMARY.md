@@ -217,6 +217,7 @@
   * [470. Implement Rand10\(\) Using Rand7\(\)](leetcode/470.-implement-rand10-using-rand7.md)
   * [472. concatenated words](leetcode/472.-concatenated-words.md)
   * [495. Teemo Attacking](leetcode/495.-teemo-attacking.md)
+  * [498. Diagonal Traverse](leetcode/498.-diagonal-traverse.md)
   * [501. Find Mode in Binary Search Tree](leetcode/untitled-6.md)
   * [503. Next Greater Element II](leetcode/503.-next-greater-element-ii.md)
   * [513. Find Bottom Left Tree Value](leetcode/513.-find-bottom-left-tree-value.md)
