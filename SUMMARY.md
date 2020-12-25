@@ -449,6 +449,8 @@
   * [面试题 01.05. 一次编辑](li-kou-mian-shi-ti/mian-shi-ti-01.05.-yi-ci-bian-ji.md)
   * [面试题 01.06. 字符串压缩](li-kou-mian-shi-ti/mian-shi-ti-01.06.-zi-fu-chuan-ya-suo.md)
   * [面试题 01.07. 旋转矩阵](li-kou-mian-shi-ti/mian-shi-ti-01.07.-xuan-zhuan-ju-zhen.md)
+  * [面试题 01.08. 零矩阵](li-kou-mian-shi-ti/mian-shi-ti-01.08.-ling-ju-zhen.md)
+  * [面试题 01.09. 字符串轮转](li-kou-mian-shi-ti/mian-shi-ti-01.09.-zi-fu-chuan-lun-zhuan.md)
   * [面试题 08.03. 魔术索引](li-kou-mian-shi-ti/mian-shi-ti-08.03.-mo-shu-suo-yin.md)
   * [面试题 16.11. 跳水板](li-kou-mian-shi-ti/mian-shi-ti-16.11.-tiao-shui-ban.md)
   * [面试题 17.13. 恢复空格](li-kou-mian-shi-ti/mian-shi-ti-17.13.-hui-fu-kong-ge.md)
