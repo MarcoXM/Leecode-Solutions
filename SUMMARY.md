@@ -66,6 +66,7 @@
   * [78. Subsets](leetcode/78.-subsets.md)
   * [79. Word Search](leetcode/79.-word-search.md)
   * [80. Remove Duplicates from Sorted Array II](leetcode/80.-remove-duplicates-from-sorted-array-ii.md)
+  * [85. Maximal Rectangle](leetcode/85.-maximal-rectangle.md)
   * [88. Merge Sorted Array](leetcode/88.-merge-sorted-array.md)
   * [89. Gray Code](leetcode/89.-gray-code.md)
   * [90. Subsets II](leetcode/90.-subsets-ii.md)
