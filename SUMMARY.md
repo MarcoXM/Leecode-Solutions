@@ -433,7 +433,7 @@
   * [1702. Maximum Binary String After Change](leetcode/untitled-20.md)
   * [1703. Minimum Adjacent Swaps for K Consecutive Ones](leetcode/untitled-19.md)
   * [1704. Determine if String Halves Are Alike](leetcode/1704.-determine-if-string-halves-are-alike.md)
-  * [Untitled](leetcode/untitled-23.md)
+  * [1705. Maximum Number of Eaten Apples](leetcode/untitled-23.md)
   * [1706. Where Will the Ball Fall](leetcode/untitled-22.md)
   * [Untitled](leetcode/untitled-21.md)
 * [剑指offer](jian-zhi-offer/README.md)
