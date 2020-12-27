@@ -430,7 +430,7 @@
   * [1697. Checking Existence of Edge Length Limited Paths](leetcode/1697.-checking-existence-of-edge-length-limited-paths.md)
   * [1700. Number of Students Unable to Eat Lunch](leetcode/1700.-number-of-students-unable-to-eat-lunch.md)
   * [1701. Average Waiting Time](leetcode/1701.-average-waiting-time.md)
-  * [Untitled](leetcode/untitled-20.md)
+  * [1702. Maximum Binary String After Change](leetcode/untitled-20.md)
   * [Untitled](leetcode/untitled-19.md)
 * [剑指offer](jian-zhi-offer/README.md)
   * [剑指 Offer 03. 数组中重复的数字](jian-zhi-offer/jian-zhi-offer-03.-shu-zu-zhong-zhong-fu-de-shu-zi.md)
