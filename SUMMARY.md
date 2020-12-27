@@ -434,7 +434,7 @@
   * [1703. Minimum Adjacent Swaps for K Consecutive Ones](leetcode/untitled-19.md)
   * [1704. Determine if String Halves Are Alike](leetcode/1704.-determine-if-string-halves-are-alike.md)
   * [Untitled](leetcode/untitled-23.md)
-  * [Untitled](leetcode/untitled-22.md)
+  * [1706. Where Will the Ball Fall](leetcode/untitled-22.md)
   * [Untitled](leetcode/untitled-21.md)
 * [剑指offer](jian-zhi-offer/README.md)
   * [剑指 Offer 03. 数组中重复的数字](jian-zhi-offer/jian-zhi-offer-03.-shu-zu-zhong-zhong-fu-de-shu-zi.md)
