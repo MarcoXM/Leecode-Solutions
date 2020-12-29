@@ -307,6 +307,7 @@
   * [1027. Longest Arithmetic Subsequence](leetcode/1027.-longest-arithmetic-subsequence.md)
   * [1029. Two City Scheduling](leetcode/1029.-two-city-scheduling.md)
   * [1041. Robot Bounded In Circle](leetcode/untitled-4.md)
+  * [1046. Last Stone Weight](leetcode/1046.-last-stone-weight.md)
   * [1047. Remove All Adjacent Duplicates In String](leetcode/1047.-remove-all-adjacent-duplicates-in-string.md)
   * [1074. Number of submatrices that sum to target](leetcode/untitled-14.md)
   * [1094. Car Pooling](leetcode/1094.-car-pooling.md)
