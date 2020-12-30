@@ -333,6 +333,7 @@
   * [1383. Maximum Performance of a Team](leetcode/1383.-maximum-performance-of-a-team.md)
   * [1396. Design Underground System](leetcode/1396.-design-underground-system.md)
   * [1409. Matrix finding number](leetcode/1409.-matrix-finding-number.md)
+  * [1457. Pseudo-Palindromic Paths in a Binary Tree](leetcode/1457.-pseudo-palindromic-paths-in-a-binary-tree.md)
   * [1463. Cherry Pickup II](leetcode/1463.-cherry-pickup-ii.md)
   * [1472. Design Browser History](leetcode/1472.-design-browser-history.md)
   * [1488. Avoid Flood in The City](leetcode/1488.-avoid-flood-in-the-city.md)
