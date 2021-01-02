@@ -329,6 +329,7 @@
   * [1322. ads](leetcode/1322.-ads.md)
   * [1332. Number of 1 Bits](leetcode/1332.-number-of-1-bits.md)
   * [1356. Sort Integers by The Number of 1 Bits](leetcode/1356.-sort-integers-by-the-number-of-1-bits.md)
+  * [1379. Find a Corresponding Node of a Binary Tree in a Clone of That Tree](leetcode/1379.-find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree.md)
   * [1382. Balance a Binary Search Tree](leetcode/1382.-balance-a-binary-search-tree.md)
   * [1383. Maximum Performance of a Team](leetcode/1383.-maximum-performance-of-a-team.md)
   * [1396. Design Underground System](leetcode/1396.-design-underground-system.md)
