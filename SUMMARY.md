@@ -440,6 +440,8 @@
   * [1704. Determine if String Halves Are Alike](leetcode/1704.-determine-if-string-halves-are-alike.md)
   * [1705. Maximum Number of Eaten Apples](leetcode/untitled-23.md)
   * [1706. Where Will the Ball Fall](leetcode/untitled-22.md)
+  * [1710. Maximum Units on a Truck](leetcode/1710.-maximum-units-on-a-truck.md)
+  * [1712. Ways to Split Array Into Three Subarrays](leetcode/1712.-ways-to-split-array-into-three-subarrays.md)
   * [Untitled](leetcode/untitled-21.md)
 * [剑指offer](jian-zhi-offer/README.md)
   * [剑指 Offer 03. 数组中重复的数字](jian-zhi-offer/jian-zhi-offer-03.-shu-zu-zhong-zhong-fu-de-shu-zi.md)
