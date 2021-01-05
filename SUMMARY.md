@@ -1,6 +1,8 @@
 # Table of contents
 
 * [Introduction](README.md)
+* [USACO Training](usaco-training/README.md)
+  * [1339. 你的旅途由此开始](usaco-training/1339.-ni-de-lv-tu-you-ci-kai-shi.md)
 * [LCP](lcp/README.md)
   * [LCP 01. 猜数字](lcp/lcp-01.-cai-shu-zi.md)
   * [LCP 02. 分式化简](lcp/lcp-02.-fen-shi-hua-jian.md)
