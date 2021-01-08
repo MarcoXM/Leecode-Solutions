@@ -238,6 +238,7 @@
   * [535. Encode and Decode TinyURL](leetcode/535.-encode-and-decode-tinyurl.md)
   * [538. Convert BST to Greater Tree](leetcode/538.-convert-bst-to-greater-tree.md)
   * [543. Diameter of Binary Tree](leetcode/543.-diameter-of-binary-tree.md)
+  * [547. Number of Provinces](leetcode/547.-number-of-provinces.md)
   * [547. Friend Circles](leetcode/547.-friend-circles.md)
   * [556. Next Greater Element III](leetcode/556.-next-greater-element-iii.md)
   * [567. Permutation in String](leetcode/567.-permutation-in-string.md)
