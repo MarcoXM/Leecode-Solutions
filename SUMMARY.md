@@ -149,6 +149,7 @@
   * [213. House Robber II](leetcode/213.-house-robber-ii.md)
   * [214. Shortest Palindrome](leetcode/214.-shortest-palindrome.md)
   * [227. Basic Calculator II](leetcode/227.-basic-calculator-ii.md)
+  * [Untitled](leetcode/untitled-24.md)
   * [229. Majority Element II](leetcode/229.-majority-element-ii.md)
   * [230. Kth Smallest Element in a BST](leetcode/230.-kth-smallest-element-in-a-bst.md)
   * [232. Implement Queue using Stacks](leetcode/232.-implement-queue-using-stacks.md)
