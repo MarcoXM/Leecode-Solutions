@@ -455,6 +455,7 @@
   * [1717. Maximum Score From Removing Substrings](leetcode/1717.-maximum-score-from-removing-substrings.md)
   * [1718. Construct the Lexicographically Largest Valid Sequence](leetcode/1718.-construct-the-lexicographically-largest-valid-sequence.md)
   * [1719. Number Of Ways To Reconstruct A Tree](leetcode/1719.-number-of-ways-to-reconstruct-a-tree.md)
+  * [1722. Minimize Hamming Distance After Swap Operations](leetcode/1722.-minimize-hamming-distance-after-swap-operations.md)
 * [剑指offer](jian-zhi-offer/README.md)
   * [剑指 Offer 03. 数组中重复的数字](jian-zhi-offer/jian-zhi-offer-03.-shu-zu-zhong-zhong-fu-de-shu-zi.md)
   * [剑指 Offer 04. 二维数组中的查找](jian-zhi-offer/jian-zhi-offer-04.-er-wei-shu-zu-zhong-de-cha-zhao.md)
