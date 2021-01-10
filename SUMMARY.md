@@ -6,6 +6,7 @@
   * [1340. 贪婪的送礼者](usaco-training/1340.-tan-lan-de-song-li-zhe.md)
   * [1341. 十三号星期五](usaco-training/1341.-shi-san-hao-xing-qi-wu.md)
   * [1342. 断开的项链](usaco-training/1342.-duan-kai-de-xiang-lian.md)
+  * [1343. 挤牛奶](usaco-training/1343.-ji-niu-nai.md)
 * [LCP](lcp/README.md)
   * [LCP 01. 猜数字](lcp/lcp-01.-cai-shu-zi.md)
   * [LCP 02. 分式化简](lcp/lcp-02.-fen-shi-hua-jian.md)
