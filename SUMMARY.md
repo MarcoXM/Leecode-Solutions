@@ -262,7 +262,7 @@
   * [673. Number of Longest Increasing Subsequence](leetcode/673.-number-of-longest-increasing-subsequence.md)
   * [680. Split String](leetcode/680.-split-string.md)
   * [682. Baseball Game](leetcode/682.-baseball-game.md)
-  * [Untitled](leetcode/untitled-25.md)
+  * [684. Redundant Connection](leetcode/untitled-25.md)
   * [685. Redundant Connection II](leetcode/685.-redundant-connection-ii.md)
   * [689. Maximum Sum of 3 Non-Overlapping Subarrays](leetcode/689.-maximum-sum-of-3-non-overlapping-subarrays.md)
   * [692. Top K Frequent Words](leetcode/692.-top-k-frequent-words.md)

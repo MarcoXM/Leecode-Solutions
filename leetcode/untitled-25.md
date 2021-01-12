@@ -1,4 +1,4 @@
-# Untitled
+# 684. Redundant Connection
 
 {% tabs %}
 {% tab title="Python" %}
