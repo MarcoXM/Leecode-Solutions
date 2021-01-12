@@ -328,6 +328,7 @@
   * [1169. Invalid Transactions](leetcode/1169.-invalid-transactions.md)
   * [1192. Critical Connections in a Network](leetcode/1192.-critical-connections-in-a-network.md)
   * [1202. Smallest String With Swaps](leetcode/1202.-smallest-string-with-swaps.md)
+  * [1203. Sort Items by Groups Respecting Dependencies](leetcode/1203.-sort-items-by-groups-respecting-dependencies.md)
   * [1221. Split a String in Balanced Strings](leetcode/1221.-split-a-string-in-balanced-strings.md)
   * [1249. Minimum Remove to Make Valid Parentheses](leetcode/1249.-minimum-remove-to-make-valid-parentheses.md)
   * [1268. Search Suggestions System](leetcode/1268.-search-suggestions-system.md)
