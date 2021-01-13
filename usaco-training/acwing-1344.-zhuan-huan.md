@@ -1,4 +1,4 @@
-# AcWing 1344. 转换
+# 1344. 转换
 
 ```go
 package main
