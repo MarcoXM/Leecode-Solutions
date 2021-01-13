@@ -65,3 +65,35 @@ func (p Element) Less(i, j int) bool {
 }
 ```
 
+```go
+import (
+    "fmt"
+     "os"
+    "bufio"
+    )
+    
+
+## bufio -> 适合不知道长度的输入..
+## 也没有查到for合适的写法
+func main() {
+    var num int
+    var name string
+    fmt.Scanf("%d", &num)
+    var cnt int
+    scanner := bufio.NewScanner(os.Stdin)
+    for scanner.Scan() 
+    
+    
+## rune 外面套int 改变为整形
+func get(c rune) (int) {
+    if c <= 'O'{
+        return int(c - 'A')/3 + 2
+    } else if c <= 'S'{
+        return 7
+    } else if c <= 'V'{
+        return 8
+    }
+    return 9
+}
+```
+
