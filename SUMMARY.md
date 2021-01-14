@@ -9,6 +9,7 @@
   * [1343. 挤牛奶](usaco-training/1343.-ji-niu-nai.md)
   * [1344. 转换](usaco-training/acwing-1344.-zhuan-huan.md)
   * [1345. 序号命名](usaco-training/1345.-xu-hao-ming-ming.md)
+  * [1347. 双重回文](usaco-training/1347.-shuang-zhong-hui-wen.md)
 * [LCP](lcp/README.md)
   * [LCP 01. 猜数字](lcp/lcp-01.-cai-shu-zi.md)
   * [LCP 02. 分式化简](lcp/lcp-02.-fen-shi-hua-jian.md)
