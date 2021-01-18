@@ -13,6 +13,8 @@
   * [1348. 搭配牛奶](usaco-training/1348.-da-pei-niu-nai.md)
   * [1349. 修理牛棚](usaco-training/1349.-xiu-li-niu-peng.md)
   * [1350. 密码运算](usaco-training/1350.-mi-ma-yun-suan.md)
+  * [1351. 密码锁](usaco-training/1351.-mi-ma-suo.md)
+  * [1353. 滑雪场设计](usaco-training/1353.-hua-xue-chang-she-ji.md)
 * [LCP](lcp/README.md)
   * [LCP 01. 猜数字](lcp/lcp-01.-cai-shu-zi.md)
   * [LCP 02. 分式化简](lcp/lcp-02.-fen-shi-hua-jian.md)
