@@ -349,6 +349,7 @@
   * [1291. Sequential Digits](leetcode/1291.-sequential-digits.md)
   * [1293. Shortest Path in a Grid with Obstacles Elimination](leetcode/1293.-shortest-path-in-a-grid-with-obstacles-elimination.md)
   * [1300. Sum of Mutated Array Closest to Target](leetcode/1300.-sum-of-mutated-array-closest-to-target.md)
+  * [1319. Number of Operations to Make Network Connected](leetcode/1319.-number-of-operations-to-make-network-connected.md)
   * [1322. ads](leetcode/1322.-ads.md)
   * [1332. Number of 1 Bits](leetcode/1332.-number-of-1-bits.md)
   * [1356. Sort Integers by The Number of 1 Bits](leetcode/1356.-sort-integers-by-the-number-of-1-bits.md)
