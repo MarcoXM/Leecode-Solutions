@@ -361,6 +361,7 @@
   * [1463. Cherry Pickup II](leetcode/1463.-cherry-pickup-ii.md)
   * [1472. Design Browser History](leetcode/1472.-design-browser-history.md)
   * [1488. Avoid Flood in The City](leetcode/1488.-avoid-flood-in-the-city.md)
+  * [1489. Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree](leetcode/1489.-find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree.md)
   * [1492. The kth Factor of n](leetcode/1492.-the-kth-factor-of-n.md)
   * [1351. Count Negative Numbers in a Sorted Matrix](leetcode/1351.-count-negative-numbers-in-a-sorted-matrix.md)
   * [1502. Can Make Arithmetic Progression From Sequence](leetcode/1502.-can-make-arithmetic-progression-from-sequence.md)
