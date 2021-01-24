@@ -316,6 +316,7 @@
   * [948. Bag of Tokens](leetcode/948.-bag-of-tokens.md)
   * [949.  Largest Time for Given DigitsSolution](leetcode/949.-largest-time-for-given-digitssolution.md)
   * [957. Prison Cells After N Days](leetcode/957.-prison-cells-after-n-days.md)
+  * [959. Regions Cut By Slashes](leetcode/959.-regions-cut-by-slashes.md)
   * [973. K Closest Points to Origin](leetcode/973.-k-closest-points-to-origin.md)
   * [975. Odd even jump](leetcode/975.-odd-even-jump.md)
   * [977. Squares of a Sorted Array](leetcode/977.-squares-of-a-sorted-array.md)
