@@ -1,6 +1,54 @@
 # 23. Merge k Sorted Lists
 
 {% tabs %}
+{% tab title="Python" %}
+```python
+# Definition for singly-linked list.
+# class ListNode:
+#     def __init__(self, val=0, next=None):
+#         self.val = val
+#         self.next = next
+class Solution:
+    def mergeKLists(self, lists: List[ListNode]) -> ListNode:
+        if not lists:
+            return 
+        
+        return self.divide(lists, 0, len(lists))
+        
+        
+    def divide(self, lists, left , right):
+        if left == right - 1:
+            return lists[left]
+        mid = left + right >> 1
+        l1 = self.divide(lists, left, mid)
+        l2 = self.divide(lists, mid, right)
+        return self.merge(l1, l2)
+        
+        
+    def merge(self, a, b):
+        if not a and not b:
+            return 
+        dummy = ListNode(-1)
+        node = dummy 
+        while a and b:
+            if a.val <= b.val:
+                node.next = a
+                a = a.next
+            else:
+                node.next = b
+                b = b.next
+            node = node.next
+            
+        if not a:
+            node.next = b
+        if not b:
+            node.next = a
+            
+        return dummy.next
+        
+```
+{% endtab %}
+
 {% tab title="分治" %}
 ```python
 ##分治　
