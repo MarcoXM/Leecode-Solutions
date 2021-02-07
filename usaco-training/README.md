@@ -65,3 +65,71 @@ func (p Element) Less(i, j int) bool {
 }
 ```
 
+```go
+import (
+    "fmt"
+     "os"
+    "bufio"
+    )
+    
+
+## bufio -> 适合不知道长度的输入..
+## 也没有查到for合适的写法
+func main() {
+    var num int
+    var name string
+    fmt.Scanf("%d", &num)
+    var cnt int
+    scanner := bufio.NewScanner(os.Stdin)
+    for scanner.Scan() 
+    
+    
+## rune 外面套int 改变为整形
+func get(c rune) (int) {
+    if c <= 'O'{
+        return int(c - 'A')/3 + 2
+    } else if c <= 'S'{
+        return 7
+    } else if c <= 'V'{
+        return 8
+    }
+    return 9
+}
+
+
+
+```
+
+```go
+type dsu struct {
+    f []int
+    size []int
+    cnt int
+}
+
+func (d *dsu) find(x int) int {
+    if d.f[x]!=x {
+        d.f[x] = d.find(d.f[x])
+    }
+    return d.f[x]
+}
+
+func (d *dsu) union(x, y int) int {
+    fx,fy := d.find(x), d.find(y)
+    if fx == fy {
+        return d.size[fx] 
+    }else{
+        d.cnt -= 1
+        if d.size[fx] >= d.size[fy] {
+            d.size[fx] += d.size[fy]
+            d.f[fy] = fx
+            return d.size[fx]
+        } else {
+            d.size[fy]+= d.size[fx]
+            d.f[fx] = fy
+            return d.size[fy]
+        }
+    }
+}
+```
+
