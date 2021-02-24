@@ -566,7 +566,7 @@
   * [Bite](data-structure/bite-wise.md)
 * [SQL](sql/README.md)
   * [SQL-Info](sql/sql-info.md)
-* [GoLang](go/README.md)
+* [Code of Golang](go/README.md)
   * [T or not T](go/t-or-not-t.md)
   * [104. 货仓选址](go/104.-huo-cang-xuan-zhi.md)
   * [898. 数字三角形](go/898.-shu-zi-san-jiao-xing.md)

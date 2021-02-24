@@ -1,4 +1,4 @@
-# GoLang
+# Code of Golang
 
 In my graduate days, I have learned many aspect in computer science as well as data analytics! It’s taught in a course called **Algorithms and Data Structures**.
 
