@@ -272,6 +272,7 @@
   * [611. Valid Triangle Number](leetcode/611.-valid-triangle-number.md)
   * [617. Merge Two Binary Trees](leetcode/617.-merge-two-binary-trees.md)
   * [621. Task Scheduler](leetcode/621.-task-scheduler.md)
+  * [623. Add One Row to Tree](leetcode/623.-add-one-row-to-tree.md)
   * [628. Maximum Subtree](leetcode/628.-maximum-subtree.md)
   * [632. Smallest Range Covering Elements from K Lists](leetcode/632.-smallest-range-covering-elements-from-k-lists.md)
   * [645. Set Mismatch](leetcode/645.-set-mismatch.md)
