@@ -9,6 +9,10 @@ That is the reason why I set up this Leecode puzzles solutions repository.
 ```bash
 install go
 brew install go
+
+
+
+go env -w CGO_ENABLED=0
 ```
 
 ### go build
