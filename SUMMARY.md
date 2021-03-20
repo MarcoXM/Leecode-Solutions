@@ -535,6 +535,7 @@
   * [1796. Second Largest Digit in a String](leetcode/1796.-second-largest-digit-in-a-string.md)
   * [1797. Design Authentication Manager](leetcode/1797.-design-authentication-manager.md)
   * [1798. Maximum Number of Consecutive Values You Can Make](leetcode/1798.-maximum-number-of-consecutive-values-you-can-make.md)
+  * [1799. Maximize Score After N Operations](leetcode/1799.-maximize-score-after-n-operations.md)
 * [剑指offer](jian-zhi-offer/README.md)
   * [剑指 Offer 03. 数组中重复的数字](jian-zhi-offer/jian-zhi-offer-03.-shu-zu-zhong-zhong-fu-de-shu-zi.md)
   * [剑指 Offer 04. 二维数组中的查找](jian-zhi-offer/jian-zhi-offer-04.-er-wei-shu-zu-zhong-de-cha-zhao.md)
