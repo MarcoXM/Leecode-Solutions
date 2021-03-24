@@ -1,6 +1,32 @@
-# Untitled
+# 456. 132 pattern
 
 {% tabs %}
+{% tab title="Go" %}
+```go
+func find132pattern(nums []int) bool {
+
+    n := len(nums)
+    if n <= 2 {
+        return false
+    }
+    second := - (1 << 32)
+    stack := make([]int,0)
+    for i := n - 1; i >= 0 ; i -- {
+        if len(stack) > 0 && nums[i] < second {
+            return true
+        } else {
+            for len(stack) > 0 && nums[i] > stack[len(stack)-1]{
+                second = stack[len(stack) - 1]
+                stack = stack[:len(stack) - 1]
+            }
+        } 
+        stack = append(stack, nums[i])
+    }
+    return false
+}
+```
+{% endtab %}
+
 {% tab title="binary" %}
 ```cpp
 class Solution {
