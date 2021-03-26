@@ -325,6 +325,7 @@
   * [908. Smallest Range I](leetcode/908.-smallest-range-i.md)
   * [910. Smallest Range II](leetcode/910.-smallest-range-ii.md)
   * [912. Sort an Array](leetcode/912.-sort-an-array.md)
+  * [916. Word Subsets](leetcode/916.-word-subsets.md)
   * [921. Minimum Add to Make Parentheses Valid](leetcode/921.-minimum-add-to-make-parentheses-valid.md)
   * [925. Long Pressed Name](leetcode/925.-long-pressed-name.md)
   * [941. Valid Mountain Array](leetcode/941.-valid-mountain-array.md)
