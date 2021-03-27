@@ -276,6 +276,7 @@
   * [628. Maximum Subtree](leetcode/628.-maximum-subtree.md)
   * [632. Smallest Range Covering Elements from K Lists](leetcode/632.-smallest-range-covering-elements-from-k-lists.md)
   * [645. Set Mismatch](leetcode/645.-set-mismatch.md)
+  * [647.Palindromic Substrings](leetcode/647.palindromic-substrings.md)
   * [653. Two Sum IV - Input is a BST](leetcode/653.-two-sum-iv-input-is-a-bst.md)
   * [654. Maximum Binary Tree](leetcode/654.-maximum-binary-tree.md)
   * [658. Find K Closest Elements](leetcode/658.-find-k-closest-elements.md)
