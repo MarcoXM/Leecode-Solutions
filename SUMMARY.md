@@ -598,7 +598,7 @@
   * [SELECT from WORLD](sql/select-from-world.md)
   * [SELECT from Nobel](sql/untitled-2.md)
   * [SELECT within SELECT](sql/untitled-3.md)
-  * [Untitled](sql/untitled.md)
+  * [SELECT within SUM and COUNT](sql/untitled.md)
   * [Untitled](sql/untitled-1.md)
   * [Untitled](sql/untitled-4.md)
 * [Code of Golang](go/README.md)
