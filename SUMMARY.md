@@ -604,7 +604,7 @@
   * [JOIN](sql/untitled-1.md)
   * [More JOIN operations](sql/untitled-4.md)
   * [Using Null](sql/using-null.md)
-  * [Untitled](sql/untitled-8.md)
+  * [NSS Tutorial](sql/untitled-8.md)
   * [Untitled](sql/untitled-7.md)
   * [Untitled](sql/untitled-5.md)
 * [Code of Golang](go/README.md)
