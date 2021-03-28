@@ -605,7 +605,7 @@
   * [More JOIN operations](sql/untitled-4.md)
   * [Using Null](sql/using-null.md)
   * [NSS Tutorial](sql/untitled-8.md)
-  * [Untitled](sql/untitled-7.md)
+  * [Window functions](sql/untitled-7.md)
   * [Untitled](sql/untitled-5.md)
 * [Code of Golang](go/README.md)
   * [普通打卡](go/pu-tong-da-ka/README.md)
