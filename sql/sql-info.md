@@ -1,4 +1,4 @@
-# SQL-Info
+# SQL-Info review
 
 ## SQL 查漏补缺
 

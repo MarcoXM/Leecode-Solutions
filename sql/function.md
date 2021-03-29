@@ -1,6 +1,6 @@
 # Function
 
-
+### RANK
 
 RANK\(\) OVER \(ORDER BY f DESC\) returns the rank position relative to the expression f.
 
@@ -35,6 +35,38 @@ SELECT
 FROM world WHERE population > 100000000
 ORDER BY name
 ```
+
+
+
+## Current\_Timestamp
+
+```sql
+SELECT CURRENT_TIMESTAMP();
+
+```
+
+## DATEPART\(\) 
+
+```sql
+SELECT DATEPART(month, '2017/08/25') AS DatePartInt;
+```
+
+## 
+
+## SUBSTRING
+
+#### Example
+
+Extract a substring from a string \(start at position 5, extract 3 characters\):
+
+```sql
+SELECT CustomerName,SUBSTRING(CustomerName, 2, 5) AS ExtractString
+FROM Customers;
+```
+
+
+
+
 
 
 

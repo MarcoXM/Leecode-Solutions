@@ -596,7 +596,7 @@
   * [Stack](data-structure/stack.md)
   * [Bite](data-structure/bite-wise.md)
 * [SQL](sql/README.md)
-  * [SQL-Info](sql/sql-info.md)
+  * [SQL-Info review](sql/sql-info.md)
   * [SELECT basics](sql/select-basics.md)
   * [SELECT from WORLD](sql/select-from-world.md)
   * [SELECT from Nobel](sql/untitled-2.md)
