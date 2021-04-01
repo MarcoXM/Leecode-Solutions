@@ -331,6 +331,7 @@
   * [916. Word Subsets](leetcode/916.-word-subsets.md)
   * [921. Minimum Add to Make Parentheses Valid](leetcode/921.-minimum-add-to-make-parentheses-valid.md)
   * [925. Long Pressed Name](leetcode/925.-long-pressed-name.md)
+  * [936. Stamping The Sequence](leetcode/936.-stamping-the-sequence.md)
   * [941. Valid Mountain Array](leetcode/941.-valid-mountain-array.md)
   * [948. Bag of Tokens](leetcode/948.-bag-of-tokens.md)
   * [949.  Largest Time for Given DigitsSolution](leetcode/949.-largest-time-for-given-digitssolution.md)
