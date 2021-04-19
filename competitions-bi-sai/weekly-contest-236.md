@@ -1,6 +1,26 @@
 # weekly-contest-236
 
+1822. sign-of-the-product-of-an-array
 
+> 已知函数 signFunc\(x\) 将会根据 x 的正负返回特定值：
+>
+> 如果 x 是正数，返回 1 。 如果 x 是负数，返回 -1 。 如果 x 是等于 0 ，返回 0 。 给你一个整数数组 nums 。令 product 为数组 nums 中所有元素值的乘积。
+>
+> 返回 signFunc\(product\) 。
+
+```python
+## 暴力
+class Solution:
+    def arraySign(self, nums: List[int]) -> int:
+        ans = 1
+        for n in nums:
+            ans *= n
+            
+            
+        if ans > 0 :return 1
+        elif ans < 0 :return - 1
+        return 0
+```
 
 1823. find-the-winner-of-the-circular-game
 
