@@ -1,2 +1,2 @@
-# Competitions - 比赛
+# Leetcode 周赛
 
