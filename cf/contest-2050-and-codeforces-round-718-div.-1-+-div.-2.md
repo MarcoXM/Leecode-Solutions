@@ -1,5 +1,7 @@
 # Contest 2050 and Codeforces Round \#718 \(Div. 1 + Div. 2\)
 
+这次考的是贪心和构造，确实不太会
+
 A. Sum of 2050time limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard output
 
 A number is called 2050-number if it is 20502050, 2050020500, ..., \(2050⋅10𝑘2050⋅10k for integer 𝑘≥0k≥0\).

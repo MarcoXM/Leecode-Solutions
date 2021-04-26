@@ -578,6 +578,7 @@
   * [weekly-contest-235](competitions-bi-sai/weekly-contest-235.md)
   * [weekly-contest-236](competitions-bi-sai/weekly-contest-236.md)
   * [weekly-contest-237](competitions-bi-sai/weekly-contest-237.md)
+  * [weekly-contest-238](competitions-bi-sai/weekly-contest-238.md)
 * [剑指offer](jian-zhi-offer/README.md)
   * [剑指 Offer 03. 数组中重复的数字](jian-zhi-offer/jian-zhi-offer-03.-shu-zu-zhong-zhong-fu-de-shu-zi.md)
   * [剑指 Offer 04. 二维数组中的查找](jian-zhi-offer/jian-zhi-offer-04.-er-wei-shu-zu-zhong-de-cha-zhao.md)
