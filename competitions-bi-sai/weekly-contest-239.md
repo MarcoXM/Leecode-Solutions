@@ -186,6 +186,7 @@ class Solution:
             l = get[ls[i][2]]
             r = get[ls[i][3]]
             lenv = ls[i][1]
+            ### 这是颜色的过程
             while find(l) <= r:
                 l = find(l)
                 w[l] = lenv
