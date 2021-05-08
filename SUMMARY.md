@@ -385,6 +385,7 @@
   * [1457. Pseudo-Palindromic Paths in a Binary Tree](leetcode/1457.-pseudo-palindromic-paths-in-a-binary-tree.md)
   * [1463. Cherry Pickup II](leetcode/1463.-cherry-pickup-ii.md)
   * [1472. Design Browser History](leetcode/1472.-design-browser-history.md)
+  * [1482. 制作 m 束花所需的最少天数](leetcode/1482.-zhi-zuo-m-shu-hua-suo-xu-de-zui-shao-tian-shu.md)
   * [1488. Avoid Flood in The City](leetcode/1488.-avoid-flood-in-the-city.md)
   * [1489. Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree](leetcode/1489.-find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree.md)
   * [1492. The kth Factor of n](leetcode/1492.-the-kth-factor-of-n.md)
