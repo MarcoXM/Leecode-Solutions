@@ -539,7 +539,7 @@
   * [1784. Check if Binary String Has at Most One Segment of Ones](leetcode/1784.-check-if-binary-string-has-at-most-one-segment-of-ones.md)
   * [1785. Minimum Elements to Add to Form a Given Sum](leetcode/1785.-minimum-elements-to-add-to-form-a-given-sum.md)
   * [1786. Number of Restricted Paths From First to Last Node](leetcode/1786.-number-of-restricted-paths-from-first-to-last-node.md)
-  * [Untitled](leetcode/untitled-31.md)
+  * [1787. Make the XOR of All Segments Equal to Zero](leetcode/untitled-31.md)
   * [1790. Check if One String Swap Can Make Strings Equal](leetcode/1790.-check-if-one-string-swap-can-make-strings-equal.md)
   * [1791. Find Center of Star Graph](leetcode/1791.-find-center-of-star-graph.md)
   * [1792. Maximum Average Pass Ratio](leetcode/1792.-maximum-average-pass-ratio.md)
