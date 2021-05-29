@@ -1,8 +1,6 @@
 # biweekly-contest-53
 
-
-
-
+1876. Substrings of Size Three with Distinct Characters
 
 > 如果一个字符串不含有任何重复字符，我们称这个字符串为 **好** 字符串。
 >
@@ -107,6 +105,10 @@ class Solution:
         return ans 
             
 ```
+
+
+
+1878. Get Biggest Three Rhombus Sums in a Grid
 
 > 给你一个 `m x n` 的整数矩阵 `grid` 。
 >
@@ -233,8 +235,24 @@ class Solution:
 
 {% tabs %}
 {% tab title="状态压缩" %}
-```
-
+```python
+class Solution:
+    def minimumXORSum(self, nums1: List[int], nums2: List[int]) -> int:
+        
+        n = len(nums1)
+        inf = 10**9
+        f =[ inf for _ in range(1 << n)]
+        f[0] = 0
+        for i in range(1, 1 << n):
+            s = 0 ## 代表用过了几个数字
+            for j in range(n):
+                if i >>j & 1:
+                    s += 1
+            for j in range(n):
+                if i >> j & 1:
+                    f[i] = min(f[i],f[i - (1 << j)] + (nums2[j] ^ nums1[s-1]))
+        
+        return f[(1 << n) - 1]
 ```
 {% endtab %}
 
