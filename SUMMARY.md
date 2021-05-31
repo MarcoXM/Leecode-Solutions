@@ -148,6 +148,7 @@
   * [155. Min Stack](leetcode/155.-min-stack.md)
   * [160. Intersection of Two Linked Lists](leetcode/160.-intersection-of-two-linked-lists.md)
   * [162. Find Peak Element](leetcode/162.-find-peak-element.md)
+  * [164. Maximum Gap](leetcode/164.-maximum-gap.md)
   * [165. Compare Version Numbers](leetcode/165.-compare-version-numbers.md)
   * [167. Two Sum II - Input Array is Sorted](leetcode/167.-two-sum-ii-input-array-is-sorted.md)
   * [171. Excel Sheet Column Number](leetcode/171.-excel-sheet-column-number.md)
