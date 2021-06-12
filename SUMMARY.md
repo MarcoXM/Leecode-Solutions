@@ -592,6 +592,7 @@
   * [biweekly-contest-53](competitions-bi-sai/biweekly-contest-53.md)
   * [weekly-contest-243](competitions-bi-sai/weekly-contest-243.md)
   * [weekly-contest-244](competitions-bi-sai/untitled.md)
+  * [biweekly-contest 54](competitions-bi-sai/biweekly-contest-54.md)
 * [Untitled](untitled-1.md)
 * [Untitled](untitled.md)
 * [剑指offer](jian-zhi-offer/README.md)
