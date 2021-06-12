@@ -329,6 +329,7 @@
   * [861. Score After Flipping Matrix](leetcode/861.-score-after-flipping-matrix.md)
   * [869. Reordered Power of 2](leetcode/869.-reordered-power-of-2.md)
   * [870. Advantage Shuffle](leetcode/870.-advantage-shuffle.md)
+  * [871. Minimum Number of Refueling Stops](leetcode/871.-minimum-number-of-refueling-stops.md)
   * [902. Numbers At Most N Given Digit Set](leetcode/902.-numbers-at-most-n-given-digit-set.md)
   * [908. Smallest Range I](leetcode/908.-smallest-range-i.md)
   * [910. Smallest Range II](leetcode/910.-smallest-range-ii.md)
