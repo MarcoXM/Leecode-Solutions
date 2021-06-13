@@ -359,6 +359,7 @@
   * [1041. Robot Bounded In Circle](leetcode/untitled-4.md)
   * [1046. Last Stone Weight](leetcode/1046.-last-stone-weight.md)
   * [1047. Remove All Adjacent Duplicates In String](leetcode/1047.-remove-all-adjacent-duplicates-in-string.md)
+  * [1049. Last Stone Weight II](leetcode/1049.-last-stone-weight-ii.md)
   * [1074. Number of submatrices that sum to target](leetcode/untitled-14.md)
   * [1094. Car Pooling](leetcode/1094.-car-pooling.md)
   * [1110. Delete Nodes And Return Forest](leetcode/1110.-delete-nodes-and-return-forest.md)
