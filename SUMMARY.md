@@ -250,6 +250,7 @@
   * [463. Island Perimeter](leetcode/463.-island-perimeter.md)
   * [470. Implement Rand10\(\) Using Rand7\(\)](leetcode/470.-implement-rand10-using-rand7.md)
   * [472. concatenated words](leetcode/472.-concatenated-words.md)
+  * [473. Matchsticks to Square](leetcode/473.-matchsticks-to-square.md)
   * [474. Ones and Zeroes](leetcode/474.-ones-and-zeroes.md)
   * [477. Total Hamming Distance](leetcode/477.-total-hamming-distance.md)
   * [495. Teemo Attacking](leetcode/495.-teemo-attacking.md)
