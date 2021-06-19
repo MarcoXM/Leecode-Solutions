@@ -372,6 +372,7 @@
   * [1202. Smallest String With Swaps](leetcode/1202.-smallest-string-with-swaps.md)
   * [1203. Sort Items by Groups Respecting Dependencies](leetcode/1203.-sort-items-by-groups-respecting-dependencies.md)
   * [1221. Split a String in Balanced Strings](leetcode/1221.-split-a-string-in-balanced-strings.md)
+  * [1239. Maximum Length of a Concatenated String with Unique Characters](leetcode/1239.-maximum-length-of-a-concatenated-string-with-unique-characters.md)
   * [1249. Minimum Remove to Make Valid Parentheses](leetcode/1249.-minimum-remove-to-make-valid-parentheses.md)
   * [1268. Search Suggestions System](leetcode/1268.-search-suggestions-system.md)
   * [1277. Count Square Submatrices with All Ones](leetcode/1277.-count-square-submatrices-with-all-ones.md)
