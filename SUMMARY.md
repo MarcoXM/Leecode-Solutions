@@ -227,6 +227,7 @@
   * [394. Decode String](leetcode/394.-decode-string.md)
   * [395. Longest Substring with At Least K Repeating Characters](leetcode/395.-longest-substring-with-at-least-k-repeating-characters.md)
   * [399. Evaluate Division](leetcode/399.-evaluate-division.md)
+  * [401. Binary Watch](leetcode/401.-binary-watch.md)
   * [402. Remove K Digits](leetcode/402.-remove-k-digits.md)
   * [404. Sum of Left Leaves](leetcode/404.-sum-of-left-leaves.md)
   * [406. Queue Reconstruction by Height](leetcode/406.-queue-reconstruction-by-height.md)
