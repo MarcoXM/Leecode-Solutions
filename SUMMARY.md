@@ -605,6 +605,7 @@
   * [weekly-contest-245](competitions-bi-sai/weekly-contest-245.md)
   * [biweekly-contest 55](competitions-bi-sai/biweekly-contest-55.md)
   * [weekly-contest-246](competitions-bi-sai/weekly-contest-246.md)
+  * [biweekly-contest 56](competitions-bi-sai/biweekly-contest-56.md)
   * [Untitled](competitions-bi-sai/untitled-1.md)
 * [Untitled](untitled-1.md)
 * [Untitled](untitled.md)
