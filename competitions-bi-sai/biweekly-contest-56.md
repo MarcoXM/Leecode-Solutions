@@ -305,5 +305,86 @@ class Solution:
 > * 图中两个节点之间可能有多条路径。
 > * 图中不含有自环。
 
+{% tabs %}
+{% tab title="AC" %}
+```python
+class Solution:
+    def minCost(self, maxTime: int, edges: List[List[int]], pf: List[int]) -> int:
+        n = len(pf)
+        graph = collections.defaultdict(list)
+        time = collections.defaultdict(int)
+        dist = [[float("inf")] * 1010 for _ in range(1010)]
+        st = [[False] * 1010 for _ in range(1010)]
+        q = collections.deque()
 
+        for x, y,t in edges:
+            graph[x].append(y)
+            graph[y].append(x)
+            time[(x,y)] = t
+            time[(y,x)] = t
+            
+        dist[0][0] = pf[0]
+        q.append((0,0))
+        while q :
+            node, t = q.popleft()
+            st[node][t]  = False
+            if node == n - 1:
+                print(dist[node][t])
+            
+            for nxt_node in graph[node]:
+                newt = t + time[(nxt_node,node)]
+                if newt > maxTime:
+                    continue 
+                    
+                if dist[nxt_node][newt] > dist[node][t] + pf[nxt_node]:
+                    print(newt,dist[node][t],pf[nxt_node],dist[nxt_node][newt])
+                    dist[nxt_node][newt] = dist[node][t] + pf[nxt_node]
+                    # 
+                    
+                    if not st[nxt_node][newt]:
+                        st[nxt_node][newt] = True
+                        q.append((nxt_node,newt))
+                
+        ans = min(dist[n - 1])
+        return -1 if ans == float('inf') else ans
+```
+{% endtab %}
+
+{% tab title="Python - TLE" %}
+```python
+class Solution:
+    def minCost(self, maxTime: int, edges: List[List[int]], pf: List[int]) -> int:
+        n = len(pf)
+        graph = collections.defaultdict(list)
+        timecheck = collections.defaultdict(int)
+        q = collections.deque()
+        for x, y,time in edges:
+            graph[x].append(y)
+            graph[y].append(x)
+            timecheck[tuple(sorted([x, y]))] = time
+            
+        fees = 0
+        visited = set()
+        # visited.add(0)
+        q.append((0,-1,pf[0],0))
+        ans = float("inf")
+        while q:
+            ls = len(q)
+            for _ in range(ls):
+                node, prev, fees, stime = q.popleft()
+                # print(node, prev, fees, stime)
+                if node == n - 1 and stime <=maxTime:
+                    # print(fees)
+                    ans = min(ans, fees)
+                for nxt_node in graph[node]:
+                    # print(nxt_node)
+                    if nxt_node in visited:
+                        continue 
+                    q.append((nxt_node, node, fees + pf[nxt_node], stime + timecheck[tuple(sorted([node, nxt_node]))]))
+            visited.add(node)
+            
+        return -1 if ans == float('inf') else ans
+```
+{% endtab %}
+{% endtabs %}
 
