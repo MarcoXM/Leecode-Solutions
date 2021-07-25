@@ -503,6 +503,7 @@
   * [1706. Where Will the Ball Fall](leetcode/untitled-22.md)
   * [1710. Maximum Units on a Truck](leetcode/1710.-maximum-units-on-a-truck.md)
   * [1712. Ways to Split Array Into Three Subarrays](leetcode/1712.-ways-to-split-array-into-three-subarrays.md)
+  * [1713. Minimum Operations to Make a Subsequence](leetcode/1713.-minimum-operations-to-make-a-subsequence.md)
   * [1716. Calculate Money in Leetcode Bank](leetcode/untitled-21.md)
   * [1717. Maximum Score From Removing Substrings](leetcode/1717.-maximum-score-from-removing-substrings.md)
   * [1718. Construct the Lexicographically Largest Valid Sequence](leetcode/1718.-construct-the-lexicographically-largest-valid-sequence.md)
